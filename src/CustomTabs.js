@@ -6,18 +6,12 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
+import { colors } from '@material-ui/core';
+import { orange } from '@material-ui/core/colors';
 
-const styles = {
-  root: {
-    background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
-    borderRadius: 3,
-    border: 0,
-    color: 'white',
-    height: 48,
-    padding: '0 30px',
-    boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
-  },
-};
+
+
+
 
 
 function TabPanel(props) {
@@ -53,12 +47,24 @@ function a11yProps(index) {
   };
 }
 
-const useStyles = makeStyles((theme) => ({
+
+const useStyles = makeStyles({
   root: {
-    flexGrow: 1,
-    backgroundColor: theme.palette.background.paper,
+    backgroundColor: orange
   },
-}));
+  tabs: {
+    backgroundColor: orange
+  },
+  label: {
+  },
+});
+
+// const useStyles = makeStyles((theme) => ({
+//   root: {
+//     flexGrow: 1,
+//     backgroundColor: theme.palette.background.paper,
+//   },
+// }));
 
 export default function SimpleTabs() {
   const classes = useStyles();
@@ -71,7 +77,7 @@ export default function SimpleTabs() {
   return (
     <div className={classes.root}>
       <AppBar position="static">
-        <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
+        <Tabs className={classes.root} value={value} onChange={handleChange} aria-label="simple tabs example">
           <Tab label="Project 1" {...a11yProps(0)} />
           <Tab label="Project 2" {...a11yProps(1)} />
           <Tab label="Project 3" {...a11yProps(2)} />
