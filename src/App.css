@@ -17,6 +17,10 @@
  border-radius: 8px; */
 }
 
+.TabPanel {
+  background: blue;
+}
+
 .Headstyle {
   /* background-color: hsl(184, 89%, 93%); */
   background-color: #f7d6ba;

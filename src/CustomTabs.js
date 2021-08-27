@@ -59,12 +59,6 @@ const useStyles = makeStyles({
   },
 });
 
-// const useStyles = makeStyles((theme) => ({
-//   root: {
-//     flexGrow: 1,
-//     backgroundColor: theme.palette.background.paper,
-//   },
-// }));
 
 export default function SimpleTabs() {
   const classes = useStyles();
@@ -77,15 +71,15 @@ export default function SimpleTabs() {
   return (
     <div className={classes.root}>
       <AppBar position="static">
-        <Tabs className={classes.root} value={value} onChange={handleChange} aria-label="simple tabs example">
+        <Tabs className={classes.root} style = {{backgroundColor : "#f58e00"}}  value={value} onChange={handleChange} aria-label="simple tabs example">
           <Tab label="Project 1" {...a11yProps(0)} />
           <Tab label="Project 2" {...a11yProps(1)} />
           <Tab label="Project 3" {...a11yProps(2)} />
           <Tab label="Student's Choice" {...a11yProps(3)} />
-          <Tab label="HOMEWORK" {...a11yProps(4)} />
+          <Tab label="Homework" {...a11yProps(4)} />
         </Tabs>
       </AppBar>
-      <TabPanel value={value} index={0}>
+      <TabPanel  value={value} index={0}>
         Project 1:
       </TabPanel>
       <TabPanel value={value} index={1}>
