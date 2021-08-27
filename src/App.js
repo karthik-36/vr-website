@@ -1,11 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import CustomTabs from './CustomTabs';
+import PropTypes from 'prop-types';
+import { makeStyles } from '@material-ui/core/styles';
+import AppBar from '@material-ui/core/AppBar';
+import Tabs from '@material-ui/core/Tabs';
+import Tab from '@material-ui/core/Tab';
+import Typography from '@material-ui/core/Typography';
+import Box from '@material-ui/core/Box';
 
 function App() {
+
+  function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
   return (
     <div className="App">
-      <h1>my name is karthik</h1>
-      <h2>something something keyboard</h2>
+      <div className="Headstyle">
+        <h1 className="Header" >428 Virtual And Mixed Reality</h1>
+        <h1 className="Header" > <em> Karthik Singh</em></h1>
+      </div>
+      <br />
+      <body>
+        <CustomTabs />
+      </body>
     </div>
   );
 }
