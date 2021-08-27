@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/vr-website/static/css/main.93abb6b6.chunk.css",
-    "main.js": "/vr-website/static/js/main.5e955906.chunk.js",
-    "main.js.map": "/vr-website/static/js/main.5e955906.chunk.js.map",
-    "runtime-main.js": "/vr-website/static/js/runtime-main.088d2287.js",
-    "runtime-main.js.map": "/vr-website/static/js/runtime-main.088d2287.js.map",
-    "static/js/2.1c144a26.chunk.js": "/vr-website/static/js/2.1c144a26.chunk.js",
-    "static/js/2.1c144a26.chunk.js.map": "/vr-website/static/js/2.1c144a26.chunk.js.map",
-    "static/js/3.4b3ea0de.chunk.js": "/vr-website/static/js/3.4b3ea0de.chunk.js",
-    "static/js/3.4b3ea0de.chunk.js.map": "/vr-website/static/js/3.4b3ea0de.chunk.js.map",
+    "main.css": "/vr-website/static/css/main.2ab4b16b.chunk.css",
+    "main.js": "/vr-website/static/js/main.5a4b9fe8.chunk.js",
+    "main.js.map": "/vr-website/static/js/main.5a4b9fe8.chunk.js.map",
+    "runtime-main.js": "/vr-website/static/js/runtime-main.ef0e1164.js",
+    "runtime-main.js.map": "/vr-website/static/js/runtime-main.ef0e1164.js.map",
+    "static/js/2.19a17fbf.chunk.js": "/vr-website/static/js/2.19a17fbf.chunk.js",
+    "static/js/2.19a17fbf.chunk.js.map": "/vr-website/static/js/2.19a17fbf.chunk.js.map",
+    "static/js/3.7f9d679c.chunk.js": "/vr-website/static/js/3.7f9d679c.chunk.js",
+    "static/js/3.7f9d679c.chunk.js.map": "/vr-website/static/js/3.7f9d679c.chunk.js.map",
     "index.html": "/vr-website/index.html",
-    "static/css/main.93abb6b6.chunk.css.map": "/vr-website/static/css/main.93abb6b6.chunk.css.map",
-    "static/js/2.1c144a26.chunk.js.LICENSE.txt": "/vr-website/static/js/2.1c144a26.chunk.js.LICENSE.txt"
+    "static/css/main.2ab4b16b.chunk.css.map": "/vr-website/static/css/main.2ab4b16b.chunk.css.map",
+    "static/js/2.19a17fbf.chunk.js.LICENSE.txt": "/vr-website/static/js/2.19a17fbf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.088d2287.js",
-    "static/js/2.1c144a26.chunk.js",
-    "static/css/main.93abb6b6.chunk.css",
-    "static/js/main.5e955906.chunk.js"
+    "static/js/runtime-main.ef0e1164.js",
+    "static/js/2.19a17fbf.chunk.js",
+    "static/css/main.2ab4b16b.chunk.css",
+    "static/js/main.5a4b9fe8.chunk.js"
   ]
 }
