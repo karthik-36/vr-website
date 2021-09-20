@@ -6,10 +6,8 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-import { colors } from '@material-ui/core';
+import { colors, Paper, Grid } from '@material-ui/core';
 import { blue, orange } from '@material-ui/core/colors';
-import Paper from '@mui/material/Paper';
-import Grid from '@mui/material/Grid';
 
 
 // npm run deploy
@@ -103,6 +101,8 @@ export default function SimpleTabs() {
             <b>Chernobyl:</b>  My original plan was to project a model of the abandoned Ferris wheel from Pripyat amusement park but not many people were aware of its existence and could not relate, so I went on and added a representation of the burning nuclear plant from "that incident".
           </p>
           <br />
+          <p>Both the models show live weather of the place which is updated every 15 seconds, Also there is a magic-8-ball attached to both the knick-knacks which would show random slangs upon a rough 100 degree rotation on x or z axis.</p>
+          <br />
           <p>Along with the knick-knacks, The model for Chernobyl can also be projected in a ground plane after you click on the "switch ground plane" button. this will make a roughly 1-meter cube model appear in the ground which you could walk and navigate through using your phone.</p>
           <br />
           <h2 style={{ textAlign: "center", color: "blue" }}>Demo Video</h2>
@@ -133,11 +133,11 @@ export default function SimpleTabs() {
               Open Unity Hub => Add New project => location to wherever you cloned the project
             </li>
             <li>
-              Make an account in Vuforia and add your own license key in unity by clicking on the scene "sceneKnickKnack" <br/>
+              Make an account in Vuforia and add your own license key in unity by clicking on the scene "sceneKnickKnack" <br />
               then click on "AR Camera" in scene tab => "open vuforia configuration" in inspector => license key.
             </li>
             <li>
-              now to generate apk file you have to go to  <br/> file => build settings => select android => then "build" in bottom right corner. <br/>
+              now to generate apk file you have to go to  <br /> file => build settings => select android => then "build" in bottom right corner. <br />
               this should generate the apk file.
             </li>
             <li>
@@ -235,15 +235,53 @@ export default function SimpleTabs() {
           <h2 style={{ textAlign: "center", color: "blue" }}>Inspiration for the models</h2>
           <br />
 
+          <p><h3>Nuclear plant & Ferris wheel of chernobyl :</h3></p>
+          <br/>
+          <Grid container style = {{width : "125%", textAlign : "center"}}>
+            <Grid md = {12} lg={5}>
+          <div width = "500">
+            <img src="https://mini-adventures.com/wp-content/uploads/2020/01/chernobyl-tour-visit-1-1.jpg" height="350" width="400" alt="Italian Trulli" />
+            <figcaption>(Abandoned Ferris wheel at Pripyat amusement park.) </figcaption>
+          </div>
+            </Grid>
+            <Grid md = {12} lg={5}>
+            <div width = "500">
+            <img src="https://i.insider.com/5cdb28de93a1523bc26e3052?width=600&format=jpeg&auto=webp" height="350" width="400" alt="Italian Trulli" />
+            <figcaption>(Reactor 4 several months after the disaster.) </figcaption>
+           </div>
+            </Grid>
+          </Grid>
+          <br/>
+          <p><h4 style = {{marginLeft : "20px"}}> Magic 8 ball slangs : </h4></p>
+
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <p><h3>Street in Venice : </h3></p>
+          <br/>
+             <Grid container style = {{width : "125%", textAlign : "center"}}>
+            <Grid md = {12} lg={5}>
+          <div width = "500">
+            <img src="https://images.fineartamerica.com/images-medium-large-5/lamppost-of-venice-prints-of-italy.jpg"  height="350" width="400" alt="Italian Trulli" />
+            <figcaption>(3-way split lamp in Venice) </figcaption>
+          </div>
+            </Grid>
+            <Grid md = {12} lg={5}>
+            <div width = "500">
+            <img src="https://live.staticflickr.com/3848/15255925626_d668ab6fdf_b.jpg" height="350" width="300" alt="Italian Trulli" />
+            <figcaption>(St Mark's Campanile tower) </figcaption>
+           </div>
+            </Grid>
+          </Grid>
+
           <figure>
-            <img src="https://mini-adventures.com/wp-content/uploads/2020/01/chernobyl-tour-visit-1-1.jpg" height="500" width="600" alt="Italian Trulli" />
-            <figcaption>(Abandoned Ferris wheel at Pripyat amusement park) </figcaption>
+          
           </figure>
 
-          <img src="https://i.insider.com/5cdb28de93a1523bc26e3052?width=600&format=jpeg&auto=webp" alt="Italian Trulli" />
-
-          <img src="https://images.fineartamerica.com/images-medium-large-5/lamppost-of-venice-prints-of-italy.jpg" alt="Italian Trulli" />
-          <img src="https://live.staticflickr.com/3848/15255925626_d668ab6fdf_b.jpg" alt="Italian Trulli" />
+          <figure>
+          
+          </figure>
 
           <br />
           <h2 style={{ textAlign: "center", color: "blue" }}>Images/Phone Screenshots</h2>
