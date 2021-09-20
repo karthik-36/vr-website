@@ -182,7 +182,7 @@ export default function SimpleTabs() {
               <ol>
                 <h4>Internet models</h4>
                 <li>
-
+                <a href = "https://free3d.com/user/bejek_2812">https://free3d.com/user/bejek_2812</a> : factory by  bejek_2812
                 </li>
                 <li>
 
