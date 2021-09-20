@@ -31,6 +31,11 @@ p{
   padding-right: 7%;
 }
 
+ol {
+  padding-left: 9%;
+  padding-right: 7%;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
