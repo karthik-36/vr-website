@@ -8,9 +8,11 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import { colors } from '@material-ui/core';
 import { blue, orange } from '@material-ui/core/colors';
+import Paper from '@mui/material/Paper';
+import Grid from '@mui/material/Grid';
 
 
-
+// npm run deploy
 
 
 
@@ -119,6 +121,29 @@ export default function SimpleTabs() {
           <br />
           <h2 style={{ textAlign: "center", color: "blue" }}>How to use</h2>
           <br />
+          <ol>
+            <h4>Instructions</h4>
+            <li>
+              Install unity and vuforia from the tools used section above.
+            </li>
+            <li>
+              Clone the repo from the github link, click <a href="https://github.com/karthik-36/Knick-knack-AR">here</a>.
+            </li>
+            <li>
+              Open Unity Hub => Add New project => location to wherever you cloned the project
+            </li>
+            <li>
+              Make an account in Vuforia and add your own license key in unity by clicking on the scene "sceneKnickKnack" <br/>
+              then click on "AR Camera" in scene tab => "open vuforia configuration" in inspector => license key.
+            </li>
+            <li>
+              now to generate apk file you have to go to  <br/> file => build settings => select android => then "build" in bottom right corner. <br/>
+              this should generate the apk file.
+            </li>
+            <li>
+              install the apk file into your android device & you are good to go.
+            </li>
+          </ol>
           <br />
           <h2 style={{ textAlign: "center", color: "blue" }}>Assets</h2>
           <br />
@@ -130,41 +155,41 @@ export default function SimpleTabs() {
               <ol>
                 <h4>Own models</h4>
                 <li>
-                Venice street lamps
+                  Venice street lamps
                 </li>
                 <li>
-                St Mark's Campanile tower
+                  St Mark's Campanile tower
                 </li>
               </ol>
 
-              <br/>
+              <br />
 
               <ol>
                 <h4>Internet models </h4>
                 <li>
-                <a href = "https://sketchfab.com/Hanesto">https://sketchfab.com/Hanesto</a>  : Multiple Venice buildings (homes)  by  Hanesto
+                  <a href="https://sketchfab.com/Hanesto">https://sketchfab.com/Hanesto</a>  : Multiple Venice buildings (homes)  by  Hanesto
                 </li>
                 <li>
-                <a href = " https://free3d.com/user/garleth93">https://free3d.com/user/garleth93</a>  : boat by garleth93
+                  <a href=" https://free3d.com/user/garleth93">https://free3d.com/user/garleth93</a>  : boat by garleth93
                 </li>
                 <li>
-                <a href = "https://free3d.com/user/andrijaalp">https://free3d.com/user/andrijaalp</a> : bridge by  andrijaalp
+                  <a href="https://free3d.com/user/andrijaalp">https://free3d.com/user/andrijaalp</a> : bridge by  andrijaalp
                 </li>
                 <li>
-                <a href = "mixamo.com">mixamo.com</a>  : couple & man on the boat
+                  <a href="mixamo.com">mixamo.com</a>  : couple & man on the boat
                 </li>
               </ol>
 
-              <br/>
+              <br />
 
               <ol>
                 <h4>Soundtrack </h4>
                 <li>
-                <a href = "https://www.youtube.com/watch?v=pOIBF-eIUEQ">https://www.youtube.com/watch?v=pOIBF-eIUEQ</a>  : Jesper Kyd - Back In Venice
+                  <a href="https://www.youtube.com/watch?v=pOIBF-eIUEQ">https://www.youtube.com/watch?v=pOIBF-eIUEQ</a>  : Jesper Kyd - Back In Venice
                 </li>
               </ol>
-              <br/>
-              <br/>
+              <br />
+              <br />
             </div></li>
 
             <li><div>
@@ -172,34 +197,34 @@ export default function SimpleTabs() {
               <ol>
                 <h4>Own models</h4>
                 <li>
-                Ferris wheel
+                  Ferris wheel
                 </li>
                 <li>
-                Burning nuclear reactor, Water hoses, Graphite on the ground
+                  Burning nuclear reactor, Water hoses, Graphite on the ground
                 </li>
               </ol>
-              <br/>
+              <br />
               <ol>
                 <h4>Internet models</h4>
                 <li>
-                <a href = "https://free3d.com/user/bejek_2812">https://free3d.com/user/bejek_2812</a> : factory by  bejek_2812
+                  <a href="https://free3d.com/user/bejek_2812">https://free3d.com/user/bejek_2812</a> : factory by  bejek_2812
                 </li>
                 <li>
-
+                  <a href="https://www.turbosquid.com/Search/Artists/Denzer01">https://www.turbosquid.com/Search/Artists/Denzer01</a> : powerplant by Denzer01
                 </li>
                 <li>
-
+                  <a href="https://www.turbosquid.com/Search/Artists/Soenke">https://www.turbosquid.com/Search/Artists/Soenke</a> : firetruck without wheels  by Soenke
                 </li>
                 <li>
-
+                  <a href="mixamo.com">mixamo.com</a> : fireman
                 </li>
               </ol>
-              <br/>
+              <br />
               <ol>
                 <h4>Soundtrack</h4>
                 <li>
-                <a href = "https://www.youtube.com/watch?v=zxjjie1Ohio&ab_channel=JoJo%27sBizarreAdventures">https://www.youtube.com/watch?v=5AyhE26Hbls</a>  :  Stardust Crusaders OST - Omen
-               
+                  <a href="https://www.youtube.com/watch?v=zxjjie1Ohio&ab_channel=JoJo%27sBizarreAdventures">https://www.youtube.com/watch?v=5AyhE26Hbls</a>  :  Stardust Crusaders OST - Omen
+
                 </li>
               </ol>
             </div></li>
@@ -209,6 +234,17 @@ export default function SimpleTabs() {
           <br />
           <h2 style={{ textAlign: "center", color: "blue" }}>Inspiration for the models</h2>
           <br />
+
+          <figure>
+            <img src="https://mini-adventures.com/wp-content/uploads/2020/01/chernobyl-tour-visit-1-1.jpg" height="500" width="600" alt="Italian Trulli" />
+            <figcaption>(Abandoned Ferris wheel at Pripyat amusement park) </figcaption>
+          </figure>
+
+          <img src="https://i.insider.com/5cdb28de93a1523bc26e3052?width=600&format=jpeg&auto=webp" alt="Italian Trulli" />
+
+          <img src="https://images.fineartamerica.com/images-medium-large-5/lamppost-of-venice-prints-of-italy.jpg" alt="Italian Trulli" />
+          <img src="https://live.staticflickr.com/3848/15255925626_d668ab6fdf_b.jpg" alt="Italian Trulli" />
+
           <br />
           <h2 style={{ textAlign: "center", color: "blue" }}>Images/Phone Screenshots</h2>
           <br />
