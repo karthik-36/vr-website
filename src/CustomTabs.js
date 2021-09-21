@@ -8,6 +8,20 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import { colors, Paper, Grid } from '@material-ui/core';
 import { blue, orange } from '@material-ui/core/colors';
+import ball8 from './images/8ball.jpeg';
+import mergeCube from './images/merge cube.jpg';
+import classCube from './images/class cube.jpeg';
+
+import venice from './images/venice.jpeg';
+import chernoFull from './images/cherno full.jpg';
+import ferris from './images/ferris Wheel.jpg';
+import waterHose from './images/water.jpeg';
+import burning from './images/burning Reactor.jpg';
+import lamp from './images/lamp.jpg';
+import sttower from './images/sttower.jpg';
+import full from './images/full.jpeg';
+
+
 
 
 // npm run deploy
@@ -105,6 +119,22 @@ export default function SimpleTabs() {
           <br />
           <p>Along with the knick-knacks, The model for Chernobyl can also be projected in a ground plane after you click on the "switch ground plane" button. this will make a roughly 1-meter cube model appear in the ground which you could walk and navigate through using your phone.</p>
           <br />
+          <Grid container style={{ width: "125%", textAlign: "center" }}>
+            <Grid md={12} lg={5}>
+              <div width="500">
+                <img src={mergeCube} height="450" width="400" alt="Italian Trulli" />
+                <figcaption>(1. merge cube) </figcaption>
+              </div>
+            </Grid>
+            <Grid md={12} lg={5}>
+              <div width="500">
+                <img src={classCube} height="450" width="400" alt="Italian Trulli" />
+                <figcaption>(2. class cube) </figcaption>
+              </div>
+            </Grid>
+          </Grid>
+          <br />
+          <br />
           <h2 style={{ textAlign: "center", color: "blue" }}>Demo Video</h2>
           <br />
           <br />
@@ -189,6 +219,27 @@ export default function SimpleTabs() {
                 </li>
               </ol>
               <br />
+
+              <p><h4 style={{ marginLeft: "7%" }}>Own model images :</h4></p>
+              <br />
+              <Grid container style={{ width: "105%", textAlign: "center", marginLeft: "8%" }}>
+                <Grid md={12} lg={5}>
+                  <div width="400">
+                    <img src={lamp} height="650" width="400" alt="Italian Trulli" />
+                    <figcaption>(3-way Lamp in venice) </figcaption>
+                  </div>
+                </Grid>
+                <Grid md={12} lg={5}>
+                  <div width="400">
+                    <img src={sttower} height="650" width="400" alt="Italian Trulli" />
+                    <figcaption>(St Mark's Campanile tower) </figcaption>
+                  </div>
+                </Grid>
+              </Grid>
+              <br />
+
+
+              <br />
               <br />
             </div></li>
 
@@ -220,6 +271,8 @@ export default function SimpleTabs() {
                 </li>
               </ol>
               <br />
+
+              <br />
               <ol>
                 <h4>Soundtrack</h4>
                 <li>
@@ -229,66 +282,166 @@ export default function SimpleTabs() {
               </ol>
             </div></li>
           </ol>
-
+          <br />
+          <p><h4 style={{ marginLeft: "7%" }}>Own model images :</h4></p>
+          <br />
+          <Grid container style={{ width: "105%", textAlign: "center", marginLeft: "8%" }}>
+            <Grid md={12} lg={5}>
+              <div width="400">
+                <img src={ferris} height="650" width="400" alt="Italian Trulli" />
+                <figcaption>(Ferris Wheel) </figcaption>
+              </div>
+            </Grid>
+            <Grid md={12} lg={5}>
+              <div width="400">
+                <img src={burning} height="650" width="400" alt="Italian Trulli" />
+                <figcaption>(burning reactor) </figcaption>
+              </div>
+            </Grid>
+            <Grid md={12} lg={5}>
+              <div width="400">
+                <img src={waterHose} height="650" width="400" alt="Italian Trulli" />
+                <figcaption>(water hose & graphite) </figcaption>
+              </div>
+            </Grid>
+          </Grid>
           <br />
           <br />
           <h2 style={{ textAlign: "center", color: "blue" }}>Inspiration for the models</h2>
           <br />
 
           <p><h3>Nuclear plant & Ferris wheel of chernobyl :</h3></p>
-          <br/>
-          <Grid container style = {{width : "125%", textAlign : "center"}}>
-            <Grid md = {12} lg={5}>
-          <div width = "500">
-            <img src="https://mini-adventures.com/wp-content/uploads/2020/01/chernobyl-tour-visit-1-1.jpg" height="350" width="400" alt="Italian Trulli" />
-            <figcaption>(Abandoned Ferris wheel at Pripyat amusement park.) </figcaption>
-          </div>
+          <br />
+          <Grid container style={{ width: "125%", textAlign: "center" }}>
+            <Grid md={12} lg={5}>
+              <div width="500">
+                <img src="https://mini-adventures.com/wp-content/uploads/2020/01/chernobyl-tour-visit-1-1.jpg" height="350" width="400" alt="Italian Trulli" />
+                <figcaption>(Abandoned Ferris wheel at Pripyat amusement park.) </figcaption>
+              </div>
             </Grid>
-            <Grid md = {12} lg={5}>
-            <div width = "500">
-            <img src="https://i.insider.com/5cdb28de93a1523bc26e3052?width=600&format=jpeg&auto=webp" height="350" width="400" alt="Italian Trulli" />
-            <figcaption>(Reactor 4 several months after the disaster.) </figcaption>
-           </div>
+            <Grid md={12} lg={5}>
+              <div width="500">
+                <img src="https://i.insider.com/5cdb28de93a1523bc26e3052?width=600&format=jpeg&auto=webp" height="350" width="400" alt="Italian Trulli" />
+                <figcaption>(Reactor 4 several months after the disaster.) </figcaption>
+              </div>
             </Grid>
           </Grid>
-          <br/>
-          <p><h4 style = {{marginLeft : "20px"}}> Magic 8 ball slangs : </h4></p>
 
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <p><h3>Street in Venice : </h3></p>
-          <br/>
-             <Grid container style = {{width : "125%", textAlign : "center"}}>
-            <Grid md = {12} lg={5}>
-          <div width = "500">
-            <img src="https://images.fineartamerica.com/images-medium-large-5/lamppost-of-venice-prints-of-italy.jpg"  height="350" width="400" alt="Italian Trulli" />
-            <figcaption>(3-way split lamp in Venice) </figcaption>
-          </div>
-            </Grid>
-            <Grid md = {12} lg={5}>
-            <div width = "500">
-            <img src="https://live.staticflickr.com/3848/15255925626_d668ab6fdf_b.jpg" height="350" width="300" alt="Italian Trulli" />
-            <figcaption>(St Mark's Campanile tower) </figcaption>
-           </div>
+
+          <br />
+
+          <p>
+            My original plan was to project a model of the abandoned Ferris wheel from Pripyat amusement park but not many people were aware of its existence and could not relate, so I went on and added a representation of the burning nuclear plant from the nuclear disaster which took place in April 26, 1986.
+          </p>
+
+
+
+          <br />
+          <p><h4 style={{ marginLeft: "0px" }}>Custom Magic 8 ball slangs for Chernobyl's Knick-Knack: </h4></p>
+
+          <ol style={{ marginLeft: "30px" }}>
+            <li>"Could you repeat that?"</li>
+            <li>"My sources say yes "</li>
+            <li>"nope nope nope sprite=10"</li>
+            <li>"YeS oF CoUrSe yOu CaN"</li>
+            <li>"no sprite=9"</li>
+            <li>"i don't think so sprite=9"</li>
+            <li>"You may proceed sprite=3"</li>
+            <li>"aahh hell naw"</li>
+            <li>"if you say so!"</li>
+            <li>"Yup Absolutely!"</li>
+          </ol>
+          <br />
+          <p> (sprite=number represents emojies used in unity. eg: 7) "you may proceed"'s image shown below)</p>
+          <br />
+          <Grid container style={{ width: "125%", textAlign: "center" }}>
+            <Grid md={12} lg={5}>
+              <div width="500">
+                <img src={ball8} height="550" width="400" alt="8 ball" />
+                <figcaption>(Random text after magic 8 ball rotation) </figcaption>
+              </div>
             </Grid>
           </Grid>
+
+          <br />
+          <br />
+          <br />
+          <br />
+          <p><h3>Street in Venice : </h3></p>
+          <br />
+          <Grid container style={{ width: "125%", textAlign: "center" }}>
+            <Grid md={12} lg={5}>
+              <div width="500">
+                <img src="https://images.fineartamerica.com/images-medium-large-5/lamppost-of-venice-prints-of-italy.jpg" height="350" width="400" alt="Italian Trulli" />
+                <figcaption>(3-way street lamp in Venice) </figcaption>
+              </div>
+            </Grid>
+            <Grid md={12} lg={5}>
+              <div width="500">
+                <img src="https://live.staticflickr.com/3848/15255925626_d668ab6fdf_b.jpg" height="350" width="300" alt="Italian Trulli" />
+                <figcaption>(St Mark's Campanile tower) </figcaption>
+              </div>
+            </Grid>
+          </Grid>
+
+          <br />
+
+          <p>
+            The model's inspiration comes from a street in Venice with the iconic three-way lamps, a waterway with gondolas instead of roads with cars, and the St Mark's Campanile tower.
+            Aim was to create a beautiful & romantic waterway with classic medival building surrounding it which resembles venice's true arcitecture.
+          </p>
+
+          <br />
 
           <figure>
-          
+
           </figure>
 
           <figure>
-          
+
           </figure>
 
           <br />
           <h2 style={{ textAlign: "center", color: "blue" }}>Images/Phone Screenshots</h2>
           <br />
           <br />
+          <Grid container style={{ width: "105%", textAlign: "center", marginLeft: "8%" }}>
+            <Grid md={12} lg={5}>
+              <div width="400">
+                <img src={chernoFull} height="650" width="400" alt="Italian Trulli" />
+                <figcaption>(Chernobyl full image) </figcaption>
+              </div>
+            </Grid>
+            <Grid md={12} lg={5}>
+              <div width="400">
+                <img src={venice} height="650" width="400" alt="Italian Trulli" />
+                <figcaption>(Venice full image) </figcaption>
+              </div>
+            </Grid>
+          </Grid>
+          <br />
+
+          <br />
+          <Grid container style={{ width: "100%", textAlign: "center", marginLeft: "1%" }}>
+            <Grid md={12} lg={12}>
+              <div width="400">
+                <img src={full} height="450" width="900" alt="Italian Trulli" />
+                <figcaption>(both knick-knacks together) </figcaption>
+              </div>
+            </Grid>
+
+          </Grid>
+          <br />
+
+          <br />
           <h2 style={{ textAlign: "center", color: "blue" }}>My thoughts on AR enhanced objects.</h2>
           <br />
+         <p> Probably Clocks and alarms/physical weather displays would be blown out of existence.
+          And anything in the real world that is showing static/general information for eg in airports/train stations could show info which is customised for you, like your departure terminal/your flight info & timings only   kitchen plate guide
+          Now this might be a bit way to far into the future but what if you could see your own body parts and AR would immediately show its current health status getting its readings from possible body augmentations?
+          We often keep checking our phones to get these kind of data but with AR glasses  get your current location.
+          interaction with these  would open up a new world . presently its just us seeing  by recognising our finger location   halo lens demo  already showed some of this  capability although it had a much narrow viewing angle.</p>
+
           <br />
 
 
