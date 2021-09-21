@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/vr-website/static/css/main.0b8667f3.chunk.css",
-    "main.js": "/vr-website/static/js/main.5f0e3878.chunk.js",
-    "main.js.map": "/vr-website/static/js/main.5f0e3878.chunk.js.map",
+    "main.js": "/vr-website/static/js/main.299565d6.chunk.js",
+    "main.js.map": "/vr-website/static/js/main.299565d6.chunk.js.map",
     "runtime-main.js": "/vr-website/static/js/runtime-main.e4266691.js",
     "runtime-main.js.map": "/vr-website/static/js/runtime-main.e4266691.js.map",
     "static/js/2.3f031610.chunk.js": "/vr-website/static/js/2.3f031610.chunk.js",
@@ -11,12 +11,23 @@
     "static/js/3.c4786437.chunk.js.map": "/vr-website/static/js/3.c4786437.chunk.js.map",
     "index.html": "/vr-website/index.html",
     "static/css/main.0b8667f3.chunk.css.map": "/vr-website/static/css/main.0b8667f3.chunk.css.map",
-    "static/js/2.3f031610.chunk.js.LICENSE.txt": "/vr-website/static/js/2.3f031610.chunk.js.LICENSE.txt"
+    "static/js/2.3f031610.chunk.js.LICENSE.txt": "/vr-website/static/js/2.3f031610.chunk.js.LICENSE.txt",
+    "static/media/8ball.da95b59d.jpeg": "/vr-website/static/media/8ball.da95b59d.jpeg",
+    "static/media/burning Reactor.69855daf.jpg": "/vr-website/static/media/burning Reactor.69855daf.jpg",
+    "static/media/cherno full.d9d91393.jpg": "/vr-website/static/media/cherno full.d9d91393.jpg",
+    "static/media/class cube.50e0817a.jpeg": "/vr-website/static/media/class cube.50e0817a.jpeg",
+    "static/media/ferris Wheel.7ba28ea6.jpg": "/vr-website/static/media/ferris Wheel.7ba28ea6.jpg",
+    "static/media/full.ac1218b8.jpeg": "/vr-website/static/media/full.ac1218b8.jpeg",
+    "static/media/lamp.69067d29.jpg": "/vr-website/static/media/lamp.69067d29.jpg",
+    "static/media/merge cube.44d209fb.jpg": "/vr-website/static/media/merge cube.44d209fb.jpg",
+    "static/media/sttower.88130ba4.jpg": "/vr-website/static/media/sttower.88130ba4.jpg",
+    "static/media/venice.7739ff0c.jpeg": "/vr-website/static/media/venice.7739ff0c.jpeg",
+    "static/media/water.1d907392.jpeg": "/vr-website/static/media/water.1d907392.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.e4266691.js",
     "static/js/2.3f031610.chunk.js",
     "static/css/main.0b8667f3.chunk.css",
-    "static/js/main.5f0e3878.chunk.js"
+    "static/js/main.299565d6.chunk.js"
   ]
 }
