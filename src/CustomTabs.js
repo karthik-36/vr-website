@@ -136,10 +136,10 @@ export default function SimpleTabs() {
           <br />
           <br />
           <h2 style={{ textAlign: "center", color: "blue" }}>Demo Video</h2>
-          <p style = {{textAlign : "center"}}>(knick-Knack & ground plane)</p>
-          <br/>
-          <div style = {{textAlign : "center"}}>
-          <iframe width="660" height="415" src="https://www.youtube.com/embed/O7-ifNvAnyo?start=70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p style={{ textAlign: "center" }}>(knick-Knack & ground plane)</p>
+          <br />
+          <div style={{ textAlign: "center" }}>
+            <iframe width="660" height="415" src="https://www.youtube.com/embed/O7-ifNvAnyo?start=70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <br />
           <br />
@@ -441,12 +441,41 @@ export default function SimpleTabs() {
           <br />
           <h2 style={{ textAlign: "center", color: "blue" }}>My thoughts on AR enhanced objects.</h2>
           <br />
-         <p> Probably Clocks and alarms/physical weather displays would be blown out of existence.
-          And anything in the real world that is showing static/general information for eg in airports/train stations could show info which is customised for you, like your departure terminal/your flight info & timings only   kitchen plate guide
-          Now this might be a bit way to far into the future but what if you could see your own body parts and AR would immediately show its current health status getting its readings from possible body augmentations?
-          We often keep checking our phones to get these kind of data but with AR glasses  get your current location.
-          interaction with these  would open up a new world . presently its just us seeing  by recognising our finger location   halo lens demo  already showed some of this  capability although it had a much narrow viewing angle.</p>
+          <p>
+            If AR Enhanced objects gain some traction in real life then most physical info display devices like Clocks and alarms, weather display devices would be blown out of existence. If AR can be integrated with glasses/contact lenses then I could see them replacing phones for a lot of basic functions as you don't really need to take out your phone again & again. In case of AR, the projections are just there!
+          </p>
 
+          <br />
+
+          <p>
+            And anything in the real world that is showing static/general information for the population eg in airports/train stations that show info for all flights and trains could now show info that is customized for you, like displaying only your departure terminal/your flight info & timings. Which would ease up things.
+          </p>
+
+          <br />
+
+          <p>
+          AR Enhanced objects could also be used as kids's toys (multiple toys in 1 knick-knack) or can be used as learning material. Like how we saw in this demo with the knick knack. I would say that it is the easiest(maybe the cheapest too) way to look around a 3d object.
+          </p>
+
+          <br />
+
+          <p>
+            We could also have AR-enhanced kitchens where every cooking container/bowl/plate/grill could be AR-enhanced. Want to learn a new recipe? Then the bowls could show how many teaspoons/cups are needed(to be added to it). You could get feedback in real-time. for current temperature of food/what else to add in the container & what to do next. maybe you could build and share your own recipes like this via AR.
+          </p>
+          <br />
+          <p>
+            Now, this might be a bit way to far into the future but what if you could see your own body parts and AR would immediately show its current health status getting its readings from possible body augmentations? We often keep checking our phones to get these kind of data but with AR glasses get your current location.
+          </p>
+          <br />
+
+          <p>
+
+            Imagine a car dashboard or a bike helmet having an inbuilt AR enhancer. You could see which direction you need to go with AR pointers, Also AR could show the optimal path and speed(green to red multiple arrow indicators) that you should be going according to the road, similar to what we currently have in Racing Game tutorials. Also, you would not need to look down at your maps(on your phone or car's built-in screen) which may prevent a lot of accidents.
+          </p>
+          <br />
+          <p>
+            Interaction with these AR-enhanced objects would open up a new world. Presently its just us seeing 3d objects placed in our view but if we were able to accurately interact with our finger without or with minimum use of external sensors. The halo lens demo already showed some of this capability although it had a much narrow viewing angle.
+          </p>
           <br />
 
 
