@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/vr-website/static/css/main.0b8667f3.chunk.css",
-    "main.js": "/vr-website/static/js/main.420ba54c.chunk.js",
-    "main.js.map": "/vr-website/static/js/main.420ba54c.chunk.js.map",
+    "main.js": "/vr-website/static/js/main.fd007190.chunk.js",
+    "main.js.map": "/vr-website/static/js/main.fd007190.chunk.js.map",
     "runtime-main.js": "/vr-website/static/js/runtime-main.e4266691.js",
     "runtime-main.js.map": "/vr-website/static/js/runtime-main.e4266691.js.map",
     "static/js/2.3f031610.chunk.js": "/vr-website/static/js/2.3f031610.chunk.js",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.e4266691.js",
     "static/js/2.3f031610.chunk.js",
     "static/css/main.0b8667f3.chunk.css",
-    "static/js/main.420ba54c.chunk.js"
+    "static/js/main.fd007190.chunk.js"
   ]
 }
