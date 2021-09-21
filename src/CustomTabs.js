@@ -460,7 +460,7 @@ export default function SimpleTabs() {
           <br />
 
           <p>
-            We could also have AR-enhanced kitchens where every cooking container/bowl/plate/grill could be AR-enhanced. Want to learn a new recipe? Then the bowls could show how many teaspoons/cups are needed(to be added to it). You could get feedback in real-time. for current temperature of food/what else to add in the container & what to do next. maybe you could build and share your own recipes like this via AR.
+            We could also have AR-enhanced kitchens where every cooking container/bowl/plate/grill could be AR-enhanced. Want to learn a new recipe? Then the bowls could show how many teaspoons/cups are needed(to be added into it). You could get feedback in real-time for current temperature of food/what else to add in the container & what to do next. Maybe you could build and share your own recipes like this and other people could follow your recipe through AR and get a rating on food for how close they were to the original.
           </p>
           <br />
           <p>
