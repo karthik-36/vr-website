@@ -89,8 +89,49 @@ code {
       width: 100%;
 
     } 
+
+    img {
+      width : 500px;
+      height : auto
+    }
+
+    h4 {
+       margin-left: 0px; 
+    }
+
+    Grid {
+      margin-left: 0%;
+    }
     
 
 }
+
+@media (max-width: 560px) { 
+
+
+
+    img {
+      width : 400px;
+      height : auto
+    }
+
+
+
+}
+
+@media (max-width: 460px) { 
+
+
+
+  img {
+    width : 320px;
+    height : auto
+  }
+
+
+
+}
+
+
 
 
