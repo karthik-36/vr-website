@@ -136,6 +136,11 @@ export default function SimpleTabs() {
           <br />
           <br />
           <h2 style={{ textAlign: "center", color: "blue" }}>Demo Video</h2>
+          <p style = {{textAlign : "center"}}>(knick-Knack & ground plane)</p>
+          <br/>
+          <div style = {{textAlign : "center"}}>
+          <iframe width="660" height="415" src="https://www.youtube.com/embed/O7-ifNvAnyo?start=70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
           <br />
           <br />
           <h2 style={{ textAlign: "center", color: "blue" }}>Source Code</h2>
