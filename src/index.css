@@ -40,3 +40,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media (max-width: 1000px) { 
+
+  p{
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+}
+
+
+@media (max-width: 1000px) { 
+
+  p{
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  section {
+    margin-left: 7%;
+    margin-right: 7%;
+
+    }
+
+}
+
+
+
+@media (max-width: 767px) { 
+
+  p{
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  section {
+    margin-left: 0%;
+    margin-right: 0%;
+    }
+
+
+    ol {
+      padding-left: 2%;
+      padding-right: 1%;
+    }
+    iframe{
+      width: 100%;
+
+    } 
+    
+
+}
+
+

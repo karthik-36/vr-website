@@ -139,7 +139,12 @@ export default function SimpleTabs() {
           <p style={{ textAlign: "center" }}>(knick-Knack & ground plane)</p>
           <br />
           <div style={{ textAlign: "center" }}>
-            <iframe width="660" height="415" src="https://www.youtube.com/embed/O7-ifNvAnyo?start=70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe 
+            allowfullscreen="true"
+              mozallowfullscreen="mozallowfullscreen"
+              msallowfullscreen="msallowfullscreen"
+              oallowfullscreen="oallowfullscreen"
+              webkitallowfullscreen="webkitallowfullscreen" allow="fullscreen" width="660" height="415" src="https://www.youtube.com/embed/O7-ifNvAnyo?start=70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <br />
           <br />
@@ -454,7 +459,7 @@ export default function SimpleTabs() {
           <br />
 
           <p>
-          AR Enhanced objects could also be used as kids's toys (multiple toys in 1 knick-knack) or can be used as learning material. Like how we saw in this demo with the knick knack. I would say that it is the easiest(maybe the cheapest too) way to look around a 3d object.
+            AR Enhanced objects could also be used as kids's toys (multiple toys in 1 knick-knack) or can be used as learning material. Like how we saw in this demo with the knick knack. I would say that it is the easiest(maybe the cheapest too) way to look around a 3d object.
           </p>
 
           <br />
