@@ -464,7 +464,7 @@ export default function SimpleTabs() {
           </p>
           <br />
           <p>
-            Now, this might be a bit way to far into the future but what if you could see your own body parts and AR would immediately show its current health status getting its readings from possible body augmentations? We often keep checking our phones to get these kind of data but with AR glasses get your current location.
+            Now, this might be a bit way to far into the future but what if you could see your own body parts and AR would immediately show its current health status getting its readings from possible body augmentations?
           </p>
           <br />
 
