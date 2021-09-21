@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/vr-website/static/css/main.e79d6e86.chunk.css",
+    "main.css": "/vr-website/static/css/main.71b6500f.chunk.css",
     "main.js": "/vr-website/static/js/main.8c358a6a.chunk.js",
     "main.js.map": "/vr-website/static/js/main.8c358a6a.chunk.js.map",
     "runtime-main.js": "/vr-website/static/js/runtime-main.4a266d34.js",
@@ -10,7 +10,7 @@
     "static/js/3.d5fb0b7a.chunk.js": "/vr-website/static/js/3.d5fb0b7a.chunk.js",
     "static/js/3.d5fb0b7a.chunk.js.map": "/vr-website/static/js/3.d5fb0b7a.chunk.js.map",
     "index.html": "/vr-website/index.html",
-    "static/css/main.e79d6e86.chunk.css.map": "/vr-website/static/css/main.e79d6e86.chunk.css.map",
+    "static/css/main.71b6500f.chunk.css.map": "/vr-website/static/css/main.71b6500f.chunk.css.map",
     "static/js/2.8d052afb.chunk.js.LICENSE.txt": "/vr-website/static/js/2.8d052afb.chunk.js.LICENSE.txt",
     "static/media/8ball.da95b59d.jpeg": "/vr-website/static/media/8ball.da95b59d.jpeg",
     "static/media/burning Reactor.69855daf.jpg": "/vr-website/static/media/burning Reactor.69855daf.jpg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.4a266d34.js",
     "static/js/2.8d052afb.chunk.js",
-    "static/css/main.e79d6e86.chunk.css",
+    "static/css/main.71b6500f.chunk.css",
     "static/js/main.8c358a6a.chunk.js"
   ]
 }
