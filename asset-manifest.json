@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/vr-website/static/css/main.71b6500f.chunk.css",
-    "main.js": "/vr-website/static/js/main.8c358a6a.chunk.js",
-    "main.js.map": "/vr-website/static/js/main.8c358a6a.chunk.js.map",
+    "main.js": "/vr-website/static/js/main.8eeb7077.chunk.js",
+    "main.js.map": "/vr-website/static/js/main.8eeb7077.chunk.js.map",
     "runtime-main.js": "/vr-website/static/js/runtime-main.4a266d34.js",
     "runtime-main.js.map": "/vr-website/static/js/runtime-main.4a266d34.js.map",
-    "static/js/2.8d052afb.chunk.js": "/vr-website/static/js/2.8d052afb.chunk.js",
-    "static/js/2.8d052afb.chunk.js.map": "/vr-website/static/js/2.8d052afb.chunk.js.map",
+    "static/js/2.9b447071.chunk.js": "/vr-website/static/js/2.9b447071.chunk.js",
+    "static/js/2.9b447071.chunk.js.map": "/vr-website/static/js/2.9b447071.chunk.js.map",
     "static/js/3.d5fb0b7a.chunk.js": "/vr-website/static/js/3.d5fb0b7a.chunk.js",
     "static/js/3.d5fb0b7a.chunk.js.map": "/vr-website/static/js/3.d5fb0b7a.chunk.js.map",
     "index.html": "/vr-website/index.html",
     "static/css/main.71b6500f.chunk.css.map": "/vr-website/static/css/main.71b6500f.chunk.css.map",
-    "static/js/2.8d052afb.chunk.js.LICENSE.txt": "/vr-website/static/js/2.8d052afb.chunk.js.LICENSE.txt",
+    "static/js/2.9b447071.chunk.js.LICENSE.txt": "/vr-website/static/js/2.9b447071.chunk.js.LICENSE.txt",
     "static/media/8ball.da95b59d.jpeg": "/vr-website/static/media/8ball.da95b59d.jpeg",
     "static/media/burning Reactor.69855daf.jpg": "/vr-website/static/media/burning Reactor.69855daf.jpg",
     "static/media/cherno full.d9d91393.jpg": "/vr-website/static/media/cherno full.d9d91393.jpg",
@@ -26,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4a266d34.js",
-    "static/js/2.8d052afb.chunk.js",
+    "static/js/2.9b447071.chunk.js",
     "static/css/main.71b6500f.chunk.css",
-    "static/js/main.8c358a6a.chunk.js"
+    "static/js/main.8eeb7077.chunk.js"
   ]
 }
