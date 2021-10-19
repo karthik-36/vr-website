@@ -977,7 +977,7 @@ export default function SimpleTabs() {
             
             <li>
                 If the scene isn't loaded by default, go to Assets->ScareCo17 Final. Double click on the Scene to load the Scene.
-                There are other Scenes named ScareCo :number: where number is ranging from 0 to 16. If you want to see the the project progression maybe you could have a look at these scenes as well.
+                There are other Scenes named ScareCo :number: where number is ranging from 0 to 16. If you want to see the project progression maybe you could have a look at these scenes as well.
             </li>
             <li>
               There are 2 ways to run the project: 1) through headset 2) using the Spatial Simulator
@@ -1758,7 +1758,7 @@ export default function SimpleTabs() {
                   width="800"
                   alt="Italian Trulli"
                 />
-                <figcaption>(almost nothing is rendered behind and the the sides of the camera giving us some sweet fps) </figcaption>
+                <figcaption>(almost nothing is rendered behind and to the sides of the camera giving us some sweet fps) </figcaption>
               </div>
             </Grid>
           </Grid>
@@ -1815,27 +1815,23 @@ export default function SimpleTabs() {
 
 
           </p>
-
+            <br/>
           <p>
            Testing out small things like collision triggers and simple tasks like pressing buttons are a lot faster with spatial simulator. simply put the camera near the to be tested area then debug. There are limitations how ever.
-           it is extremly hard and slow to climb the ladder or do any kind of parkour with your hand like climbing veins. It was so frustrating that i had to go to my friend's place or the classroom when ever i wanted to test out parkouring the headset. And not just parkouring intracting with more complex object like the shot gun is also difficult. 
+           it is extremly hard and slow to climb the ladder or do any kind of parkour with your hand like climbing veins. It was so frustrating that i had to go to my friend's place or the classroom when ever i wanted to test out parkouring. And not just parkouring, intracting with more complex object like the shot gun is also Difficult.
+            Another drawback is the fps counter. When you test in simulator, you are using the computer's hardware which is a lot more powerful. So the frame rates the you recieve can be deciveing. If there is any object/lighting that is cauing fps to drop then you wont be immidieatly able to pick it up on the simulator. Imagine my surprise when is saw 10 fps the first time i tested on classroom's oculus.
           </p>
-
+          <br/>
           <p>
             Loading Your application onto the VR is far more immersive when compared with the spatial simulator. You feel lost in your world. Some of my friends who tried using my application legit got scared when they first saw the monster towering over them. navigation is far more suprior in the VR headset.
+            The fps you get is accurate and you can generally assume that other users may get roughly the same amount of fps in the respective areas. Drawbacks are that it takes a lot of time to load applications & if by chance you left the spatial simulator active in you scene hierarchy then you would have to cancel(cancelling build again takes more than a minute) and build again, I am pretty sure most of the folks in class have exprienced this.
           </p>
-
+          <br/>
           <p>
            
           </p>
 
-          <p>
-            Loading Your application onto the VR is far more immersive when compared with the spatial simulator. You feel lost in your world. Some of my friends who tried using my application legit got scared when they first saw the monster towering over them. navigation is far more suprior in the VR headset
-          </p>
-
-          <p>
-            Loading Your application onto the VR is far more immersive when compared with the spatial simulator. You feel lost in your world. Some of my friends who tried using my application legit got scared when they first saw the monster towering over them. navigation is far more suprior in the VR headset
-          </p>
+     
 
 
         
