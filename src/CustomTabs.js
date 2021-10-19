@@ -1791,7 +1791,7 @@ export default function SimpleTabs() {
             </h2>
           </p>
           <br />
-          <p>Context : For testing VR apps on unity we have an in built vrtk simulator gameobject called spatial simulator, quite useful to test out quick and small features but is a bit hard to use(i feel). For how to use the spatial controller you can check out the instructions given above(on install and use section).</p>
+          <p>Context : For testing VR apps on unity we have an in built vrtk simulator gameobject called spatial simulator, quite useful to test out quick and small features but is a bit hard to use(i feel). For how to use the spatial controller you can check out the instructions given above(on install and use section).</p> <br/>
           <Grid
             container
             style={{ width: '90%', textAlign: 'center', marginLeft: '8%' }}
@@ -1823,12 +1823,13 @@ export default function SimpleTabs() {
           </p>
           <br/>
           <p>
-            Loading Your application onto the VR is far more immersive when compared with the spatial simulator. You feel lost in your world. Some of my friends who tried using my application legit got scared when they first saw the monster towering over them. navigation is far more suprior in the VR headset.
+            Loading Your application onto the VR is far more immersive when compared with the spatial simulator. You feel lost in your world. Some of my friends who tried using my application legit got scared when they first saw the monster towering over them. navigation is far more suprior in the VR headset. Intracting with objects are on a whole new level in the headset. The ones i enjoyed the most was swing sword at the monster, shooting the shotgun and opening the door that i build. All interactions grab/throw/shoot/use/push feel a lot more immersive in the VR compared with the simulator
             The fps you get is accurate and you can generally assume that other users may get roughly the same amount of fps in the respective areas. Drawbacks are that it takes a lot of time to load applications & if by chance you left the spatial simulator active in you scene hierarchy then you would have to cancel(cancelling build again takes more than a minute) and build again, I am pretty sure most of the folks in class have exprienced this.
+            I dont feel good spending too much time on VR, sometimes i feel dizzy whenever i fall or go down the elevator in the VR, especially if i test it in the night, it effects my sleep cycle.
           </p>
           <br/>
           <p>
-           
+           To conclude I feel that if you want to test out some basic stuff then we could stick to spatial simulator
           </p>
 
      
