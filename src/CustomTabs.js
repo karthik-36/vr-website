@@ -1817,10 +1817,24 @@ export default function SimpleTabs() {
           </p>
 
           <p>
-            
+           Testing out small things like collision triggers and simple tasks like pressing buttons are a lot faster with spatial simulator. simply put the camera near the to be tested area then debug. There are limitations how ever.
+           it is extremly hard and slow to climb the ladder or do any kind of parkour with your hand like climbing veins.
+          </p>
+
+          <p>
+            Loading Your application onto the VR is far more immersive when compared with the spatial simulator. You feel lost in your world. Some of my friends who tried using my application legit got scared when they first saw the monster towering over them. navigation is far more suprior in the VR headset.
+          </p>
+
+          <p>
+           
+          </p>
+
+          <p>
             Loading Your application onto the VR is far more immersive when compared with the spatial simulator. You feel lost in your world. Some of my friends who tried using my application legit got scared when they first saw the monster towering over them. navigation is far more suprior in the VR headset
+          </p>
 
-
+          <p>
+            Loading Your application onto the VR is far more immersive when compared with the spatial simulator. You feel lost in your world. Some of my friends who tried using my application legit got scared when they first saw the monster towering over them. navigation is far more suprior in the VR headset
           </p>
 
 
