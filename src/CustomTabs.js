@@ -47,6 +47,7 @@ import shotgun1 from './images2/shotgun1.jpg';
 import silver1 from './images2/silver1.jpg';
 import baked1 from './images2/baked1.JPG';
 import cal from './images2/cal.JPG';
+import wCull from './images2/wCull.JPG';
 
 
 
@@ -142,6 +143,7 @@ export default function SimpleTabs() {
           <Tab label="Homework" {...a11yProps(4)} />
         </Tabs>
       </AppBar>
+      <title>HTML Elements Reference</title>
       <TabPanel value={value} index={0}>
         <section>
           <h1 style={{ textAlign: 'center' }}>Project 1: Road to Nowhere</h1>
@@ -876,8 +878,8 @@ export default function SimpleTabs() {
               Find a way to defeat the ranged monster -> the user has use the
               ladder and climb to the second floor and then they have to use
               some parkouring skills to climb the veins, go to the center turn
-              around and jump on the chandalier, they then have to grab a iron
-              rod on the chandalier and cut the fan, which then falls on the
+              around and jump on the chandelier, they then have to grab a iron
+              rod on the chandelier and cut the fan, which then falls on the
               ranged monster, defeating it.
               <br />
               <b>(Reward : Shotgun unlocked)</b>
@@ -994,7 +996,7 @@ export default function SimpleTabs() {
               <br/>
               <br/>
 
-              Once the build is complete, the app will automatically start on your headset and if it doesn't, then in oculus main menu click the 3x3 dot matrix icon to open up Apps then  -> Unknown Sources -> com.CS428Fall2021.Project2ScareCoSampleCode'. use your controller to select the app, which should launch after a short delay.
+              Once the build is complete, the app will automatically start on your headset and if it doesn't, then in the oculus main menu click the 3x3 dot matrix icon to open up Apps then  -> Unknown Sources -> com.CS428Fall2021.Project2ScareCoSampleCode'. use your controller to select the app, which should launch after a short delay.
             
             </li>
             <li>
@@ -1161,7 +1163,7 @@ export default function SimpleTabs() {
                 <a href="https://www.turbosquid.com/Search/Artists/DTG-Amusements">
                   https://www.turbosquid.com/Search/Artists/DTG-Amusements
                 </a>
-                  : Chandalier & 6x Candle lights{' '}
+                  : Chandelier & 6x Candle lights{' '}
               </strike>{' '}
               (Removed due to fps drop)
             </li>
@@ -1288,7 +1290,7 @@ export default function SimpleTabs() {
                 <a href="https://www.cgtrader.com/bhaskarkumarsingh">
                   https://www.cgtrader.com/bhaskarkumarsingh
                 </a>
-                  :Tesla 3 car
+                  :Tesla 3 Car
               </strike>{' '}
               (Removed due to fps drop)
             </li>
@@ -1364,21 +1366,22 @@ export default function SimpleTabs() {
             </li>
 
             <li>
-              <a href="https://www.youtube.com/watch?v=ZwjpG5e7ZXw&ab_channel=Soundchips">
-              https://www.youtube.com/watch?v=ZwjpG5e7ZXw&ab_channel=Soundchips
-                :
-              </a>
-                Shotgun Blast
-            </li>
-
-
-            <li>
               <a href="https://www.youtube.com/watch?v=T9HYqBLS8Xg&ab_channel=FreeSounds">
               https://www.youtube.com/watch?v=T9HYqBLS8Xg&ab_channel=FreeSounds
                 :
               </a>
                 Ranged monster casting fireball sound
             </li>
+
+
+            <li>
+              <a href="https://www.youtube.com/watch?v=BowWinCmk6I&ab_channel=SoundEffectDatabase">
+              https://www.youtube.com/watch?v=BowWinCmk6I&ab_channel=SoundEffectDatabase
+                :
+              </a>
+                Fan noise
+            </li>
+            
 
             
             
@@ -1593,7 +1596,7 @@ export default function SimpleTabs() {
                   width="800"
                   alt="Italian Trulli"
                 />
-                <figcaption>(1.climbable veins  2.chandalier) </figcaption>
+                <figcaption>(1.climbable veins  2.chandelier) </figcaption>
               </div>
             </Grid>
           </Grid>
@@ -1648,19 +1651,20 @@ export default function SimpleTabs() {
   <li> shovel</li>
   <li> monster 1 & 2</li>
   <li> silver sword</li>
-  <li> Chandalier rod</li>
+  <li> chandelier rod</li>
   <li> Shield</li>
 </ol>
 <br />
 
 <ol>
   <h3>- 4 new lights for the room  </h3>
+  <p>(note : all my lights are baked and shadows are disabled to pump more fps, fire torch is 1 exception)</p>
   <li> Fire torch </li>
   <li> furnce (after being lit by user)</li>
   <li> spot light 1 </li>
   <li> spot light 2</li>
-  <li> Chandalier 1</li>
-  <li> Chandalier 2</li>
+  <li> chandelier 1</li>
+  <li> chandelier 2</li>
   <li> Directional light (night)</li>
 </ol>
 <br />
@@ -1668,21 +1672,21 @@ export default function SimpleTabs() {
 <ol>
   <h3>- 2 objects that produce new objects : </h3>
   <li> Shotgun instansiates bullets and muzzle flash </li>
-  <li> Ranged monster instansiates fireball driected at player ever 2.3 seconds</li>
+  <li> Ranged monster spawns ~15 seconds after the red button is pressed then instansiates fireball directed at player every 2.3 seconds(invokeRepeating used)</li>
 </ol>
 <br />
 
 <ol>
   <h3>- 2 of the models should be animated and move, or move some of their parts  : </h3>
-  <li> monster 1 melee </li>
+  <li> monster 1 -melee </li>
   <img
   src={monster1ani}
   height="550"
   width="600"
   alt="Italian Trulli"
 />
-<figcaption>(ranged monster animation state diagram) </figcaption>
-  <li> monster 2 ranged <div width="500">
+<figcaption>(melee monster animation state diagram) </figcaption>
+  <li> monster 2 -ranged <div width="500">
 <img
   src={rangedMons}
   height="550"
@@ -1713,12 +1717,14 @@ export default function SimpleTabs() {
 
 
 <ol>
+
   <h3>- 4 unique special sounds </h3>
   <li> fire torch fire sound (louder when you get closer)</li>
   <li> monster sound (louder when you get closer)</li>
+  <li> Fan spining noise(louder when you get closer)</li>
   <li> breathing (overall)</li>
   <li> shotgun gunshot (sound effect upon firing)</li>
-  <li> fireball (cast sound effect upon firing)</li>
+  <li> fireball (cast sound effect upon shooting)</li>
 </ol>
 <br />
 
@@ -1749,18 +1755,44 @@ export default function SimpleTabs() {
           <br />
 
           <p>
-            The first time I tested my app in class there were certain areas(explained below) that caused massive fps drops to 10 - 15 frames per sec especially near the 6x candle chandalier. Some other places where i exprienced drops were near the tesla 3 & volkswagon car which i later on removed. I used my fps watch to investigate all the areas in my project (as shown in the video) and was able to get consistant 72 fps on my friend's quest 2.
+          The first time I tested my app in class there were certain areas(explained below) that caused massive fps drops to 10 - 15 frames per sec especially near the 6x candle chandelier. Some other places where I experienced drops were near the tesla 3 & Volkswagon car which I later removed. I used my fps watch to investigate all the areas in my project (as shown in the video) and was able to get consistent 72 fps on my friend's quest 2.
+           
           </p>
+          <br/>
+          <p>
+
+           In the video below I used my fps watch to show how I got only 20-ish fps when I look at the 6x candle lights on the chandelier then the fps watch goes back to 72 when I look back at the wall. I had no idea that this was a problem when I was using the inbuilt spatial simulator. The 20 fps that I got was on a quest 2 device. In Quest 1 you could expect 30% - 40% lower fps compared to quest 2 as when I tested in class I was getting only 10 - 15 fps along with a lot of screen tear(factoring in the almost 2x performance upgrade along with the higher render resolution of the quest 2).
+          </p>
+          <br/>
           <div style={{ textAlign: 'center' }}>
           <iframe width="1000" height="800" src="https://www.youtube.com/embed/PSs30UZYCwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <ol style={{ marginLeft: '30px' }}>
-            <li>Occlusion culling : Basically means dont render what you dont see. we have to open Occlusion culling window and then we have to set a parameter for minimum bake cube size(my project was set to 1) and click on bake. Camera Demo shown in the image below. </li>
-          
+              <br/>
+              <p>
+           <h3>- 3 steps that greatly helped me increase fps</h3>
+          </p>
+              <br/>
+            <li><b>Occlusion culling : </b>Basically means don't render what you dont see. We have to open Occlusion culling window and then we have to set a parameter for minimum bake cube size(my project was set to 1) and click on bake. Camera Demo shown in the image below. </li>
+            <br/>
             <Grid
             container
             style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
           >
+            
+            <Grid md={12} lg={12}>
+              <div width="400">
+                <img
+                  src={wCull}
+                  height="450"
+                  width="800"
+                  alt="Italian Trulli"
+                />
+                <figcaption>(Scene image without culling, everything to the sides and behind the camera are behind are being rendered) </figcaption>
+              </div>
+              <br/>
+            </Grid>
+            
             <Grid md={12} lg={12}>
               <div width="400">
                 <img
@@ -1773,7 +1805,9 @@ export default function SimpleTabs() {
               </div>
             </Grid>
           </Grid>
-            <li>Baked lighting : light texture is written onto the reflective surface texture if you bake lights. that means there is no dynamic lights and more memory in consumed but this gives us a health fps </li>
+          <br/>
+            <li><b>Baked lighting:</b>  The light texture is written onto the reflective surface texture when you bake lights. For baking lights first, click on all the light sources of your choice & change from realtime light source to baked, and after that click on window -> rendering -> lighting settings -> generate lighting (the process will take some time). Using baked lighting means that there are no dynamic lights and more memory is consumed but this gives us a healthy fps boost. I have also disabled shadows for most of the light sources. This means our application won't look as good as it could but we need to remember that at the end of the day oculus is a mobile device and has limited hardware capabilities </li>
+            <br/>
             <Grid
             container
             style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
@@ -1790,7 +1824,8 @@ export default function SimpleTabs() {
               </div>
             </Grid>
           </Grid>
-            <li>Reducing the number of polygons : I removed most of the high poly modals as shown in the assets used tab and replaced them with low polygon modals to improve fps</li>
+          <br/>
+            <li><b>Reducing the number of polygons</b> : I removed most of the high poly modals as shown in the assets used tab and replaced them with low polygon modals to improve fps, I also decreased terrain texture resolution outdoors from 512 x 512 to 32 x 32. It makes the terrrain look a bit more "edgy" but again, fps!</li>
     
           </ol>
           <br />
@@ -1822,7 +1857,7 @@ export default function SimpleTabs() {
           <br />
 
           <p>
-          For this project, we need to run our phobia simulator in a headset, and for my phobia, I would have to help the user get over their fear of monsters. For testing our project we cant use oculus or any other headset every time because some people simply don't have it or even if they do then it easily takes around 3-4 minutes to build and run your app on the headset. So we usually test with the spatial simulator that is an inbuilt headset and hand controller simulator where the user can use WASD keys and mouse input.
+          For this project, we need to run our phobia simulator in a headset, and for my phobia, I would have to help the user get over their fear of monsters. For testing our project we cant use oculus or any other headset all the time because some people simply don't have it or even if they do then it easily takes around 3-4 minutes to build and run your app on the headset. So we usually test with the spatial simulator that is an inbuilt headset and hand controller simulator where the user can use WASD keys and mouse input.
           </p>
             <br/>
           <p>
