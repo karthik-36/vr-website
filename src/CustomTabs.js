@@ -974,17 +974,28 @@ export default function SimpleTabs() {
             <li>
              Open the project in Unity.
             </li>
-            
+    
             <li>
-                If the scene isn't loaded by default, go to Assets->ScareCo17 Final. Double click on the Scene to load the Scene.
+                If the scene isn't loaded by default, go to Assets-> ScareCo17 Final. Double click on the Scene to load the Scene.
                 There are other Scenes named ScareCo :number: where number is ranging from 0 to 16. If you want to see the project progression maybe you could have a look at these scenes as well.
+            </li>
+            <li>
+            This project uses a Virtual Reality Toolkit VRTK v4, used for building Virtual Reality apps in Unity. If you want to know more about VRTK use this  <a href="https://www.vrtk.io/" target="_blank">
+              link
+            </a>  
             </li>
             <li>
               There are 2 ways to run the project: 1) through headset 2) using the Spatial Simulator
             </li>
             <li>
-              To run via headset you have to go to file -> build settings -> android. Now in run device make sure that you change from default device to quest device ID. then hit build and run. The first time process will take some time, but the consecutive runs would be much faster.
+              To run via headset you have to go to file -> build settings -> Android. If by default your platform is not android then choose android and click on "switch platform", this process will take some time as you would be downloading Android SDK. Now in run device make sure that you change from default device to quest device ID. then hit build and run. The first time process will take some time, but the consecutive runs would be much faster.
               You need to select yes on "allow debugging from this computer" in your quest device when the prompt is shown & keep the usb plugged in at all times while the application is being loaded. Also make sure developer mode in quest is turned on.
+            
+              <br/>
+              <br/>
+
+              Once the build is complete, the app will automatically start on your headset and if it doesn't, then in oculus main menu click the 3x3 dot matrix icon to open up Apps then  -> Unknown Sources -> com.CS428Fall2021.Project2ScareCoSampleCode'. use your controller to select the app, which should launch after a short delay.
+            
             </li>
             <li>
              To use Spatial Simulator, you need to click on CameraRigs.SpatialSimulator in scene hirerchy and enable it(not active by default).
@@ -1294,7 +1305,7 @@ export default function SimpleTabs() {
           </ol>
           <br/>
           <ol>
-            <h4>Textures & prefabs - Outside ScareCo office</h4>
+            <h4>Textures packs & prefabs</h4>
             <li>https://assetstore.unity.com/packages/2d/textures-materials/metals/yughues-free-metal-materials-12949 - Metal texture pack</li>
             <li>https://assetstore.unity.com/packages/2d/textures-materials/wood/yughues-free-wooden-floor-materials-13213 - Wooden texture pack </li>
             <li>https://assetstore.unity.com/publishers/1669  - WAR FX pack</li> 
@@ -1791,7 +1802,7 @@ export default function SimpleTabs() {
             </h2>
           </p>
           <br />
-          <p>Context : For testing VR apps on unity we have an in built vrtk simulator gameobject called spatial simulator, quite useful to test out quick and small features but is a bit hard to use(i feel). For how to use the spatial controller you can check out the instructions given above(on install and use section).</p> <br/>
+          <p>Context: For testing VR apps on unity we have an in-built vrtk simulator gameObject called spatial simulator, quite useful to test out quick and small features but is a bit hard to use(i feel). For how to use the spatial controller you can check out the instructions given above(on install and use section).</p> <br/>
           <Grid
             container
             style={{ width: '90%', textAlign: 'center', marginLeft: '8%' }}
@@ -1811,7 +1822,7 @@ export default function SimpleTabs() {
           <br />
 
           <p>
-          For this project, we need to run our phobia simulator in a headset. For my project, I would have to help the user get over their fear of monsters. For testing our project we cant use oculus or any other headset every time because some people simply don't have it or even if they do then it easily takes around 3-4 minutes to build and run your app on the headset. So we usually test with the spatial simulator that is an inbuilt headset and hand controller simulator where the user can use WASD keys and mouse input.
+          For this project, we need to run our phobia simulator in a headset, and for my phobia, I would have to help the user get over their fear of monsters. For testing our project we cant use oculus or any other headset every time because some people simply don't have it or even if they do then it easily takes around 3-4 minutes to build and run your app on the headset. So we usually test with the spatial simulator that is an inbuilt headset and hand controller simulator where the user can use WASD keys and mouse input.
           </p>
             <br/>
           <p>
