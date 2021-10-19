@@ -1818,23 +1818,19 @@ export default function SimpleTabs() {
             <br/>
           <p>
            Testing out small things like collision triggers and simple tasks like pressing buttons are a lot faster with spatial simulator. simply put the camera near the to be tested area then debug. There are limitations how ever.
-           it is extremly hard and slow to climb the ladder or do any kind of parkour with your hand like climbing veins. It was so frustrating that i had to go to my friend's place or the classroom when ever i wanted to test out parkouring. And not just parkouring, intracting with more complex object like the shot gun is also Difficult.
-            Another drawback is the fps counter. When you test in simulator, you are using the computer's hardware which is a lot more powerful. So the frame rates the you recieve can be deciveing. If there is any object/lighting that is cauing fps to drop then you wont be immidieatly able to pick it up on the simulator. Imagine my surprise when is saw 10 fps the first time i tested on classroom's oculus.
+           it is extremly hard and slow to climb the ladder or do any kind of parkour with your hand like climbing veins. Using the simulator feels like you are playing a normal computer game. For keyboard users you are restricted only to 4 directions,whereas in the headset you you ahve 360 degree of motion, It was so frustrating that i had to go to my friend's place or the classroom when ever i wanted to test out parkouring. And not just parkouring, intracting with more complex object like the shot gun is also Difficult.
+            Another drawback is the fps counter. When you test in simulator, you are using the computer's hardware which is a lot more powerful. So the frame rates the you recieve can be deciveing. If there is any object/lighting that is cauing fps to drop then you wont be immidieatly able to pick it up on the simulator. Imagine my surprise when I saw 10 fps the first time I tested on classroom's oculus. 
           </p>
           <br/>
           <p>
-            Loading Your application onto the VR is far more immersive when compared with the spatial simulator. You feel lost in your world. Some of my friends who tried using my application legit got scared when they first saw the monster towering over them. navigation is far more suprior in the VR headset. Intracting with objects are on a whole new level in the headset. The ones i enjoyed the most was swing sword at the monster, shooting the shotgun and opening the door that i build. All interactions grab/throw/shoot/use/push feel a lot more immersive in the VR compared with the simulator
+            Loading Your application onto the VR is far more immersive when compared with the spatial simulator. You feel lost in your world. Some of my friends who tried using my application legit got scared when they first saw the monster towering over them. navigation is far more suprior in the VR headset. Intracting with objects are on a whole new level in the headset. The ones i enjoyed the most was swing sword at the monster, shooting the shotgun and opening the door that i build. All interactions grab/throw/shoot/use/push/parkour feel a lot more immersive and you get a good exercice in the VR compared with the simulator
             The fps you get is accurate and you can generally assume that other users may get roughly the same amount of fps in the respective areas. Drawbacks are that it takes a lot of time to load applications & if by chance you left the spatial simulator active in you scene hierarchy then you would have to cancel(cancelling build again takes more than a minute) and build again, I am pretty sure most of the folks in class have exprienced this.
             I dont feel good spending too much time on VR, sometimes i feel dizzy whenever i fall or go down the elevator in the VR, especially if i test it in the night, it effects my sleep cycle.
           </p>
           <br/>
           <p>
-           To conclude I feel that if you want to test out some basic stuff then we could stick to spatial simulator
+           To conclude I feel that if you want to test out some basic stuff then we could stick to spatial simulator. 
           </p>
-
-     
-
-
         
           <br />
         </section>
