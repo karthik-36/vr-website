@@ -1811,25 +1811,23 @@ export default function SimpleTabs() {
           <br />
 
           <p>
-          For this project we need to run our phobia simulator in a headset. For my project i would have to help the user get over their fear of monsters. For testing our project we cant use oculus or any other headset every time because some people simply dont have it or even if they do then it easily take around 3-4 minutes to build and run your app on the headset. So we usually test with the spatial simulator that is an inbuilt headset and hand controller simulator where the user can use WASD keys and mouse input.
-
-
+          For this project, we need to run our phobia simulator in a headset. For my project, I would have to help the user get over their fear of monsters. For testing our project we cant use oculus or any other headset every time because some people simply don't have it or even if they do then it easily takes around 3-4 minutes to build and run your app on the headset. So we usually test with the spatial simulator that is an inbuilt headset and hand controller simulator where the user can use WASD keys and mouse input.
           </p>
             <br/>
           <p>
-           Testing out small things like collision triggers and simple tasks like pressing buttons are a lot faster with spatial simulator. simply put the camera near the to be tested area then debug. There are limitations how ever.
-           it is extremly hard and slow to climb the ladder or do any kind of parkour with your hand like climbing veins. Using the simulator feels like you are playing a normal computer game. For keyboard users you are restricted only to 4 directions,whereas in the headset you you ahve 360 degree of motion, It was so frustrating that i had to go to my friend's place or the classroom when ever i wanted to test out parkouring. And not just parkouring, intracting with more complex object like the shot gun is also Difficult.
-            Another drawback is the fps counter. When you test in simulator, you are using the computer's hardware which is a lot more powerful. So the frame rates the you recieve can be deciveing. If there is any object/lighting that is cauing fps to drop then you wont be immidieatly able to pick it up on the simulator. Imagine my surprise when I saw 10 fps the first time I tested on classroom's oculus. 
+          Testing out small things like collision triggers and simple tasks like pressing buttons is a lot faster with the spatial simulator. simply put the camera near the to-be-tested area then debug. There are limitations, however.
+           it is extremely hard and slow to climb the ladder or do any kind of parkour with your hand like climbing veins. Using the simulator feels like you are playing a normal computer game. For keyboard users you are restricted only to 4 directions, whereas in the headset you have 360 degrees of motion, It was so frustrating that I had to go to my friend's place or the classroom whenever I wanted to test out parkouring. And not just parkouring, interacting with a more complex object like the shotgun is also Difficult.
+            Another drawback is the fps counter. When you test in a simulator, you are using the computer's hardware which is a lot more powerful. So the frame rates you receive can be deceiving. If there is any object/lighting that is causing fps to drop then you won't be immediately able to pick it up on the simulator. Imagine my surprise when I saw 10 fps the first time I tested on the classroom's oculus. 
           </p>
           <br/>
           <p>
-            Loading Your application onto the VR is far more immersive when compared with the spatial simulator. You feel lost in your world. Some of my friends who tried using my application legit got scared when they first saw the monster towering over them. navigation is far more suprior in the VR headset. Intracting with objects are on a whole new level in the headset. The ones i enjoyed the most was swing sword at the monster, shooting the shotgun and opening the door that i build. All interactions grab/throw/shoot/use/push/parkour feel a lot more immersive and you get a good exercice in the VR compared with the simulator
-            The fps you get is accurate and you can generally assume that other users may get roughly the same amount of fps in the respective areas. Drawbacks are that it takes a lot of time to load applications & if by chance you left the spatial simulator active in you scene hierarchy then you would have to cancel(cancelling build again takes more than a minute) and build again, I am pretty sure most of the folks in class have exprienced this.
-            I dont feel good spending too much time on VR, sometimes i feel dizzy whenever i fall or go down the elevator in the VR, especially if i test it in the night, it effects my sleep cycle.
+          Loading Your application onto the VR is far more immersive when compared with the spatial simulator. You feel lost in your world. Some of my friends who tried using my application legit got scared when they first saw the monster towering over them. navigation is far more superior in the VR headset. Interacting with objects is on a whole new level in the headset. The ones I enjoyed the most were swinging the sword at the monster, shooting the shotgun, and opening the door that I build. All interactions grab/throw/shoot/use/push/parkour feel a lot more immersive and you get a good exercise in the VR compared with the simulator
+            The fps you get are accurate and you can generally assume that other users may get roughly the same amount of fps in the respective areas. Drawbacks are that it takes a lot of time to load applications & if by chance you left the spatial simulator active in your scene hierarchy then you would have to cancel(canceling build again takes more than a minute) and build again, I am pretty sure most of the folks in class have experienced this.
+            I don't feel good spending too much time on VR, sometimes I feel dizzy whenever I fall or go down the elevator in the VR, especially if I test it at night, which affects my sleep cycle.
           </p>
           <br/>
           <p>
-           To conclude I feel that if you want to test out some basic stuff then we could stick to spatial simulator. For the complex intractions and fps testing you would definatly need a headset as no simulator could give you such exprience. 
+          To conclude I feel that if you want to test out some basic stuff then we could stick to the spatial simulator. For the complex interactions and fps testing, you would need a headset as no simulator could give you such experience. 
           </p>
         
           <br />
