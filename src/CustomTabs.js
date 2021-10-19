@@ -1816,6 +1816,14 @@ export default function SimpleTabs() {
 
           </p>
 
+          <p>
+            
+            Loading Your application onto the VR is far more immersive when compared with the spatial simulator. You feel lost in your world. Some of my friends who tried using my application legit got scared when they first saw the monster towering over them. navigation is far more suprior in the VR headset
+
+
+          </p>
+
+
         
           <br />
         </section>
