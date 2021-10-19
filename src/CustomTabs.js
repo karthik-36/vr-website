@@ -1818,7 +1818,7 @@ export default function SimpleTabs() {
 
           <p>
            Testing out small things like collision triggers and simple tasks like pressing buttons are a lot faster with spatial simulator. simply put the camera near the to be tested area then debug. There are limitations how ever.
-           it is extremly hard and slow to climb the ladder or do any kind of parkour with your hand like climbing veins.
+           it is extremly hard and slow to climb the ladder or do any kind of parkour with your hand like climbing veins. It was so frustrating that i had to go to my friend's place or the classroom when ever i wanted to test out parkouring the headset. And not just parkouring intracting with more complex object like the shot gun is also difficult. 
           </p>
 
           <p>
