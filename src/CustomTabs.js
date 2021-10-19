@@ -1829,7 +1829,7 @@ export default function SimpleTabs() {
           </p>
           <br/>
           <p>
-           To conclude I feel that if you want to test out some basic stuff then we could stick to spatial simulator. 
+           To conclude I feel that if you want to test out some basic stuff then we could stick to spatial simulator. For the complex intractions and fps testing you would definatly need a headset as no simulator could give you such exprience. 
           </p>
         
           <br />
