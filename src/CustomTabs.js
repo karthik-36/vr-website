@@ -1647,12 +1647,14 @@ export default function SimpleTabs() {
   <h3>- 5 of the models that have appropriate physics and collliders  </h3>
   <li> Fire torch </li>
   <li> Shotgun</li>
-  <li> coal </li>
-  <li> shovel</li>
-  <li> monster 1 & 2</li>
-  <li> silver sword</li>
-  <li> chandelier rod</li>
+  <li> Shotgun slugs </li>
+  <li> Coal </li>
+  <li> Shovel</li>
+  <li> Monster 1 & 2</li>
+  <li> Silver sword</li>
+  <li> Chandelier rod</li>
   <li> Shield</li>
+  <li> Fireball</li>
 </ol>
 <br />
 
@@ -1879,19 +1881,55 @@ export default function SimpleTabs() {
           <br />
         </section>
       </TabPanel>
-      <TabPanel value={value} index={2}>
+      {/* <TabPanel value={value} index={2}>
         <section>
           <h1 style={{ textAlign: 'center' }}>Project 3: </h1>
         </section>
-      </TabPanel>
+      </TabPanel> */}
       <TabPanel value={value} index={3}>
+    
+         
+    
         <section>
-          <h1 style={{ textAlign: 'center' }}>Student's choice: </h1>
+        <h1 style={{ textAlign: 'center' }}>Student's choice</h1>
+          <h1 style={{ textAlign: 'center' }}>The Climb 2</h1>
+          <br />
+          <h2 style={{ textAlign: 'center', color: 'blue' }}>Description</h2>
+          <br />
+          <p>
+            {' '}
+            The Climb 2 brings the thrill of rock climbing alive with a new city setting, exciting new maps, new events, and more. Ascend epic peaks, navigate vast caves, scale skyscrapers, and discover shortcuts as you find your path to the top. Compete with friends in multiplayer and conquer leaderboards.
+          </p>
+          <br />
+         
+          <br />
+         
+
+          <br />
+          {/* <Grid
+            container
+            style={{ width: '100%', textAlign: 'center', marginLeft: '1%' }}
+          >
+            <Grid md={12} lg={12}>
+              <div width="400">
+                <img src={full} height="450" width="900" alt="Italian Trulli" />
+                <figcaption>(both knick-knacks together) </figcaption>
+              </div>
+            </Grid>
+          </Grid> */}
+          <div style = {{position : 'center'}}>
+          <iframe  width="100%" height="800" src="https://www.youtube.com/embed/YSNPalIihiE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <br />
+
+          <br />
+         
         </section>
+        
       </TabPanel>
-      <TabPanel value={value} index={4}>
+      {/* <TabPanel value={value} index={4}>
         Homework:
-      </TabPanel>
+      </TabPanel> */}
     </div>
   )
 }
