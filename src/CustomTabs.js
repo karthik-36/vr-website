@@ -52,22 +52,22 @@ import wCull from './images2/wCull.JPG';
 
 
 
-  <Grid
-            container
-            style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
-          >
-            <Grid md={12} lg={12}>
-              <div width="400">
-                <img
-                  src={furnace}
-                  height="600"
-                  width="800"
-                  alt="Italian Trulli"
-                />
-                <figcaption>(1.furnace 2.coal 3.shovel) </figcaption>
-              </div>
-            </Grid>
-          </Grid>
+<Grid
+  container
+  style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
+>
+  <Grid md={12} lg={12}>
+    <div width="400">
+      <img
+        src={furnace}
+        height="600"
+        width="800"
+        alt="Italian Trulli"
+      />
+      <figcaption>(1.furnace 2.coal 3.shovel) </figcaption>
+    </div>
+  </Grid>
+</Grid>
 
 
 
@@ -322,13 +322,13 @@ export default function SimpleTabs() {
                     <a href="https://sketchfab.com/Hanesto">
                       https://sketchfab.com/Hanesto
                     </a>
-                      : Multiple Venice buildings (homes)  by  Hanesto
+                    : Multiple Venice buildings (homes)  by  Hanesto
                   </li>
                   <li>
                     <a href=" https://free3d.com/user/garleth93">
                       https://free3d.com/user/garleth93
                     </a>
-                      : boat by garleth93
+                    : boat by garleth93
                   </li>
                   <li>
                     <a href="https://free3d.com/user/andrijaalp">
@@ -350,7 +350,7 @@ export default function SimpleTabs() {
                     <a href="https://www.youtube.com/watch?v=pOIBF-eIUEQ">
                       https://www.youtube.com/watch?v=pOIBF-eIUEQ
                     </a>
-                      : Jesper Kyd - Back In Venice
+                    : Jesper Kyd - Back In Venice
                   </li>
                 </ol>
                 <br />
@@ -441,7 +441,7 @@ export default function SimpleTabs() {
                     <a href="https://www.youtube.com/watch?v=zxjjie1Ohio&ab_channel=JoJo%27sBizarreAdventures">
                       https://www.youtube.com/watch?v=5AyhE26Hbls
                     </a>
-                      : Stardust Crusaders OST - Omen
+                    : Stardust Crusaders OST - Omen
                   </li>
                 </ol>
               </div>
@@ -966,7 +966,7 @@ export default function SimpleTabs() {
           <ol>
             <h4>Instructions</h4>
             <li>
-             Install the above mentioned version of Unity. All required files for VRTK & 3D models are already included in the project.
+              Install the above mentioned version of Unity. All required files for VRTK & 3D models are already included in the project.
             </li>
             <li>
               Clone the repo from the github link, click{' '}
@@ -974,17 +974,17 @@ export default function SimpleTabs() {
             </li>
 
             <li>
-             Open the project in Unity.
+              Open the project in Unity.
             </li>
-    
+
             <li>
                 If the scene isn't loaded by default, go to Assets-> ScareCo17 Final. Double click on the Scene to load the Scene.
-                There are other Scenes named ScareCo :number: where number is ranging from 0 to 16. If you want to see the project progression maybe you could have a look at these scenes as well.
+              There are other Scenes named ScareCo :number: where number is ranging from 0 to 16. If you want to see the project progression maybe you could have a look at these scenes as well.
             </li>
             <li>
-            This project uses a Virtual Reality Toolkit VRTK v4, used for building Virtual Reality apps in Unity. If you want to know more about VRTK use this  <a href="https://www.vrtk.io/" target="_blank">
-              link
-            </a>  
+              This project uses a Virtual Reality Toolkit VRTK v4, used for building Virtual Reality apps in Unity. If you want to know more about VRTK use this  <a href="https://www.vrtk.io/" target="_blank">
+                link
+              </a>
             </li>
             <li>
               There are 2 ways to run the project: 1) through headset 2) using the Spatial Simulator
@@ -992,23 +992,23 @@ export default function SimpleTabs() {
             <li>
               To run via headset you have to go to file -> build settings -> Android. If by default your platform is not android then choose android and click on "switch platform", this process will take some time as you would be downloading Android SDK. Now in run device make sure that you change from default device to quest device ID. then hit build and run. The first time process will take some time, but the consecutive runs would be much faster.
               You need to select yes on "allow debugging from this computer" in your quest device when the prompt is shown & keep the usb plugged in at all times while the application is being loaded. Also make sure developer mode in quest is turned on.
-            
-              <br/>
-              <br/>
+
+              <br />
+              <br />
 
               Once the build is complete, the app will automatically start on your headset and if it doesn't, then in the oculus main menu click the 3x3 dot matrix icon to open up Apps then  -> Unknown Sources -> com.CS428Fall2021.Project2ScareCoSampleCode'. use your controller to select the app, which should launch after a short delay.
-            
+
             </li>
             <li>
-             To use Spatial Simulator, you need to click on CameraRigs.SpatialSimulator in scene hirerchy and enable it(not active by default).
-             Then simply click on play. 
+              To use Spatial Simulator, you need to click on CameraRigs.SpatialSimulator in scene hirerchy and enable it(not active by default).
+              Then simply click on play.
 
-              <ol>VRTK Simulator key bindings: 
-           
-              <li>WASD keys for movement in four directions </li>
-              <li>Q to teleport to a location</li>
-              <li>Alt to use the controllers. Left click to grad a grabbable object and left click again to release it.</li>
-              <li>In controller mode, you can move along the axes using Control and Alt. Tab to switch between the left and right controllers. </li>
+              <ol>VRTK Simulator key bindings:
+
+                <li>WASD keys for movement in four directions </li>
+                <li>Q to teleport to a location</li>
+                <li>Alt to use the controllers. Left click to grad a grabbable object and left click again to release it.</li>
+                <li>In controller mode, you can move along the axes using Control and Alt. Tab to switch between the left and right controllers. </li>
               </ol>
 
 
@@ -1046,13 +1046,13 @@ export default function SimpleTabs() {
               <a href="https://free3d.com/user/justdoit">
                 https://free3d.com/user/justdoit
               </a>
-                : Window
+              : Window
             </li>
             <li>
               <a href="https://www.cgtrader.com/vaahoanimators">
                 https://www.cgtrader.com/vaahoanimators
               </a>
-                : Veins (plant)
+              : Veins (plant)
             </li>
             <li>
               <a href="https://www.turbosquid.com/Search/Artists/Reece-Taylor">
@@ -1068,92 +1068,92 @@ export default function SimpleTabs() {
               <a href="https://www.turbosquid.com/Search/Artists/Fat-Crayon">
                 https://www.turbosquid.com/Search/Artists/Fat-Crayon
               </a>
-                : Clock 
+              : Clock
             </li>
             <li>
               <a href="https://www.cgtrader.com/free-3d-models/furniture/other/round-top-fireplace">
                 https://www.cgtrader.com/free-3d-models/furniture/other/round-top-fireplace
               </a>
-                : Furnace
+              : Furnace
             </li>
             <li>
               <a href="https://www.cgtrader.com/bartalambane">
                 https://www.cgtrader.com/bartalambane
               </a>
-                : Pipe & Generator
+              : Pipe & Generator
             </li>
             <li>
               <a href="https://assetstore.unity.com/publishers/16823">
                 https://assetstore.unity.com/publishers/16823
               </a>
-                : Shotgun store
+              : Shotgun store
             </li>
             <li>
               <a href="https://assetstore.unity.com/publishers/37272">
                 https://assetstore.unity.com/publishers/37272
               </a>
-                : Table
+              : Table
             </li>
             <li>
               <a href="https://www.cgtrader.com/vilitay">
                 https://www.cgtrader.com/vilitay
               </a>
-                : Railing
+              : Railing
             </li>
             <li>
               <a href="https://www.turbosquid.com/Search/Artists/avatarcristy">
                 https://www.turbosquid.com/Search/Artists/avatarcristy
               </a>
-                : Shield
+              : Shield
             </li>
             <li>
               <a href="https://www.turbosquid.com/Search/Artists/Darklink-Kyle">
                 https://www.turbosquid.com/Search/Artists/Darklink-Kyle
               </a>
-                : pillar
+              : pillar
             </li>
             <li>
               <a href="https://free3d.com/user/hgbckone">
                 https://free3d.com/user/hgbckone
               </a>
-                : Shovel 
+              : Shovel
             </li>
             <li>
               <a href="https://www.turbosquid.com/Search/Artists/FATIH-ORHAN">
                 https://www.turbosquid.com/Search/Artists/FATIH-ORHAN
               </a>
-                : Coal
+              : Coal
             </li>
             <li>
               <a href="https://www.turbosquid.com/Search/Artists/w1050263">
                 https://www.turbosquid.com/Search/Artists/w1050263
               </a>
-                : Spot light Emitter
+              : Spot light Emitter
             </li>
             <li>
               <a href="https://www.mixamo.com/#/?page=3&query=&type=Character">
                 https://www.mixamo.com/#/?page=3&query=&type=Character{' '}
               </a>
-               - Maynard : Melee Monster
+              - Maynard : Melee Monster
             </li>
             <li>
               <a href="https://www.mixamo.com/#/?page=3&query=&type=Character">
                 https://www.mixamo.com/#/?page=3&query=&type=Character
               </a>
-               - Drake : Ranged Monster
+              - Drake : Ranged Monster
             </li>
             <li>
               <a href="https://www.turbosquid.com/Search/Artists/bariacg">
                 https://www.turbosquid.com/Search/Artists/bariacg
               </a>
-                : Charactor hands
+              : Charactor hands
             </li>
             <li>
               <strike>
                 <a href="https://www.cgtrader.com/shiromani">
                   https://www.cgtrader.com/shiromani
                 </a>
-                  : Left & right hand{' '}
+                : Left & right hand{' '}
               </strike>{' '}
               (Removed due to fps drop)
             </li>
@@ -1163,14 +1163,14 @@ export default function SimpleTabs() {
                 <a href="https://www.turbosquid.com/Search/Artists/DTG-Amusements">
                   https://www.turbosquid.com/Search/Artists/DTG-Amusements
                 </a>
-                  : Chandelier & 6x Candle lights{' '}
+                : Chandelier & 6x Candle lights{' '}
               </strike>{' '}
               (Removed due to fps drop)
             </li>
           </ol>
           <br />
-  
-    
+
+
 
           <br />
 
@@ -1190,99 +1190,99 @@ export default function SimpleTabs() {
               <a href="https://www.cgtrader.com/cbspicer">
                 https://www.cgtrader.com/cbspicer
               </a>
-                : Low Poly Car 1
+              : Low Poly Car 1
             </li>
 
             <li>
               <a href="https://free3d.com/user/taskirmaz">
                 https://free3d.com/user/taskirmaz
               </a>
-                : Street light
+              : Street light
             </li>
             <li>
               <a href="https://assetstore.unity.com/publishers/7730">
                 https://assetstore.unity.com/publishers/7730
               </a>{' '}
-              : Tree 
+              : Tree
             </li>
             <li>
               <a href="https://www.cgtrader.com/azdimension">
                 https://www.cgtrader.com/azdimension
               </a>
-                : Fence
+              : Fence
             </li>
             <li>
               <a href="https://www.cgtrader.com/breton32">
                 https://www.cgtrader.com/breton32
               </a>
-                : Plant & pot
+              : Plant & pot
             </li>
             <li>
               <a href="https://www.cgtrader.com/akerstudio">
                 https://www.cgtrader.com/akerstudio
               </a>
-                : Reception table
+              : Reception table
             </li>
             <li>
               <a href="https://www.turbosquid.com/Search/Artists/heaven99">
                 https://www.turbosquid.com/Search/Artists/heaven99
               </a>
-                : Chair
+              : Chair
             </li>
             <li>
               <a href="https://www.mixamo.com/#/?page=2&type=Character">
                 {' '}
                 https://www.mixamo.com/#/?page=2&type=Character
               </a>
-               - Joe : Receptionist
+              - Joe : Receptionist
             </li>
             <li>
               <a href="https://www.turbosquid.com/FullPreview/Index.cfm/ID/547814">
                 https://www.turbosquid.com/FullPreview/Index.cfm/ID/547814
               </a>
-                : Telephone
+              : Telephone
             </li>
             <li>
               <a href="https://www.cgtrader.com/luccasfreitas">
                 https://www.cgtrader.com/luccasfreitas
               </a>
-                : Laptop
+              : Laptop
             </li>
             <li>
               <a href="https://free3d.com/user/printable_models">
                 https://free3d.com/user/printable_models
               </a>
-                : Deer
+              : Deer
             </li>
             <li>
               <a href="https://free3d.com/user/delirek">
                 https://free3d.com/user/delirek
               </a>
-                : Cyber truck
+              : Cyber truck
             </li>
             <li>
               <a href="https://www.cgtrader.com/bob1938">
                 https://www.cgtrader.com/bob1938
               </a>
-                : Roof 
+              : Roof
             </li>
             <li>
               <a href="https://www.cgtrader.com/jhon-elder">
                 https://www.cgtrader.com/jhon-elder
               </a>
-                : Gate
+              : Gate
             </li>
             <li>
               <a href="https://www.cgtrader.com/animatedheaven">
                 https://www.cgtrader.com/animatedheaven
               </a>
-                : Water tower
+              : Water tower
             </li>
             <li>
               <a href="https://www.cgtrader.com/ginleepa">
                 https://www.cgtrader.com/ginleepa
               </a>
-                : Road Railing
+              : Road Railing
             </li>
             <li>
               <strike>
@@ -1290,7 +1290,7 @@ export default function SimpleTabs() {
                 <a href="https://www.cgtrader.com/bhaskarkumarsingh">
                   https://www.cgtrader.com/bhaskarkumarsingh
                 </a>
-                  :Tesla 3 Car
+                :Tesla 3 Car
               </strike>{' '}
               (Removed due to fps drop)
             </li>
@@ -1300,17 +1300,17 @@ export default function SimpleTabs() {
                 <a href="https://free3d.com/user/storque12">
                   https://free3d.com/user/storque12
                 </a>
-                  : Volkswagan Car
+                : Volkswagan Car
               </strike>{' '}
               (Removed due to fps drop)
             </li>
           </ol>
-          <br/>
+          <br />
           <ol>
             <h4>Textures packs & prefabs</h4>
             <li>https://assetstore.unity.com/packages/2d/textures-materials/metals/yughues-free-metal-materials-12949 - Metal texture pack</li>
             <li>https://assetstore.unity.com/packages/2d/textures-materials/wood/yughues-free-wooden-floor-materials-13213 - Wooden texture pack </li>
-            <li>https://assetstore.unity.com/publishers/1669  - WAR FX pack</li> 
+            <li>https://assetstore.unity.com/publishers/1669  - WAR FX pack</li>
           </ol>
           <br />
           <ol>
@@ -1320,433 +1320,433 @@ export default function SimpleTabs() {
                 https://www.youtube.com/watch?v=9qLWf2j_bKk&ab_channel=SoundChaser%27sSoundEffects-Topic
                 :
               </a>
-                Monster Sound Effect
+              Monster Sound Effect
             </li>
             <li>
               <a href="https://www.youtube.com/watch?v=7O6ec8IaBzc&ab_channel=SoundEffects">
-              https://www.youtube.com/watch?v=7O6ec8IaBzc&ab_channel=SoundEffects
+                https://www.youtube.com/watch?v=7O6ec8IaBzc&ab_channel=SoundEffects
                 :
               </a>
-                User Breathing 
+              User Breathing
             </li>
 
             <li>
               <a href="https://www.youtube.com/watch?v=j428Qb49IHs&ab_channel=SoundEffectDatabase">
-              https://www.youtube.com/watch?v=j428Qb49IHs&ab_channel=SoundEffectDatabase
+                https://www.youtube.com/watch?v=j428Qb49IHs&ab_channel=SoundEffectDatabase
                 :
               </a>
-                Fire sound
+              Fire sound
             </li>
-            
+
 
             <li>
               <a href="https://www.youtube.com/watch?v=j428Qb49IHs&ab_channel=SoundEffectDatabase">
-              https://www.youtube.com/watch?v=j428Qb49IHs&ab_channel=SoundEffectDatabase
+                https://www.youtube.com/watch?v=j428Qb49IHs&ab_channel=SoundEffectDatabase
                 :
               </a>
-                Static noise from transition wall
+              Static noise from transition wall
             </li>
 
             <li>
               <a href="https://www.youtube.com/watch?v=1nD3Sp_saz4&ab_channel=ESNProductions">
-              https://www.youtube.com/watch?v=1nD3Sp_saz4&ab_channel=ESNProductions
+                https://www.youtube.com/watch?v=1nD3Sp_saz4&ab_channel=ESNProductions
                 :
               </a>
-                Horror Ambient background music
+              Horror Ambient background music
             </li>
-            
+
 
 
             <li>
               <a href="https://www.youtube.com/watch?v=ZwjpG5e7ZXw&ab_channel=Soundchips">
-              https://www.youtube.com/watch?v=ZwjpG5e7ZXw&ab_channel=Soundchips
+                https://www.youtube.com/watch?v=ZwjpG5e7ZXw&ab_channel=Soundchips
                 :
               </a>
-                Shotgun Blast
+              Shotgun Blast
             </li>
 
             <li>
               <a href="https://www.youtube.com/watch?v=T9HYqBLS8Xg&ab_channel=FreeSounds">
-              https://www.youtube.com/watch?v=T9HYqBLS8Xg&ab_channel=FreeSounds
+                https://www.youtube.com/watch?v=T9HYqBLS8Xg&ab_channel=FreeSounds
                 :
               </a>
-                Ranged monster casting fireball sound
+              Ranged monster casting fireball sound
             </li>
 
 
             <li>
               <a href="https://www.youtube.com/watch?v=BowWinCmk6I&ab_channel=SoundEffectDatabase">
-              https://www.youtube.com/watch?v=BowWinCmk6I&ab_channel=SoundEffectDatabase
+                https://www.youtube.com/watch?v=BowWinCmk6I&ab_channel=SoundEffectDatabase
                 :
               </a>
-                Fan noise
+              Fan noise
             </li>
-            
 
-            
-            
-          <br />
 
-          <br />
-          <h2 style={{ textAlign: 'center', color: 'blue' }}>
-            Images/Oculus Screenshots
-          </h2>
-          <br />
-          <br />
-          <Grid
-            container
-            style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
-          >
-            <Grid md={12} lg={12}>
-              <div width="400">
+
+
+            <br />
+
+            <br />
+            <h2 style={{ textAlign: 'center', color: 'blue' }}>
+              Images/Oculus Screenshots
+            </h2>
+            <br />
+            <br />
+            <Grid
+              container
+              style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
+            >
+              <Grid md={12} lg={12}>
+                <div width="400">
+                  <img
+                    src={timer1}
+                    height="600"
+                    width="800"
+                    alt="Italian Trulli"
+                  />
+                  <figcaption>(1. low poly car 2. timer watch 3. fps watch 4. tree  5. road railing 6. charactor hands) </figcaption>
+                </div>
+              </Grid>
+            </Grid>
+            <br />
+            <Grid
+              container
+              style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
+            >
+              <Grid md={12} lg={12}>
+                <div width="400">
+                  <img
+                    src={goingOf}
+                    height="600"
+                    width="800"
+                    alt="Italian Trulli"
+                  />
+                  <figcaption>(1.deer 2.street light 3.gate 4.ScareCo fence 5.terrain ) </figcaption>
+                </div>
+              </Grid>
+
+            </Grid>
+
+            <Grid
+              container
+              style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
+            >
+              <Grid md={12} lg={12}>
+                <div width="400">
+                  <img
+                    src={tankSHed}
+                    height="600"
+                    width="800"
+                    alt="Italian Trulli"
+                  />
+                  <figcaption>(1.cyber truck 2.ScareCo entrance & door 3. water tower ) </figcaption>
+                </div>
+              </Grid>
+
+            </Grid>
+            <Grid
+              container
+              style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
+            >
+              <Grid md={12} lg={12}>
+                <div width="400">
+                  <img
+                    src={eleche}
+                    height="600"
+                    width="800"
+                    alt="Italian Trulli"
+                  />
+                  <figcaption>(1.elevator platform 2.elevator chamber 3. elevator down button ) </figcaption>
+                </div>
+              </Grid>
+
+            </Grid>
+            <Grid
+              container
+              style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
+            >
+              <Grid md={12} lg={12}>
+                <div width="400">
+                  <img
+                    src={recp}
+                    height="600"
+                    width="800"
+                    alt="Italian Trulli"
+                  />
+                  <figcaption>(1.reception desk 2.telephone 3.laptop 4.receptionist 5.plant 6.chair 7.double doors ) </figcaption>
+                </div>
+              </Grid>
+
+            </Grid>
+            <br />
+            <Grid
+              container
+              style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
+            >
+              <Grid md={12} lg={12}>
+                <div width="400">
+                  <img
+                    src={officeSpawn}
+                    height="600"
+                    width="800"
+                    alt="Italian Trulli"
+                  />
+                  <figcaption>(1. red button & platform) </figcaption>
+                </div>
+              </Grid>
+            </Grid>
+
+            <Grid
+              container
+              style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
+            >
+              <Grid md={12} lg={12}>
+                <div width="400">
+                  <img
+                    src={aft}
+                    height="600"
+                    width="800"
+                    alt="Italian Trulli"
+                  />
+                  <figcaption>(1.fire torch 2.Shield 3.pillars 4.window & broken window(monster spawn area) 5.clock) </figcaption>
+                </div>
+              </Grid>
+            </Grid>
+
+
+            <Grid
+              container
+              style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
+            >
+              <Grid md={12} lg={12}>
+                <div width="400">
+                  <img
+                    src={furnace}
+                    height="600"
+                    width="800"
+                    alt="Italian Trulli"
+                  />
+                  <figcaption>(1.furnace 2.coal 3.shovel) </figcaption>
+                </div>
+              </Grid>
+            </Grid>
+
+            <Grid
+              container
+              style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
+            >
+              <Grid md={12} lg={12}>
+                <div width="400">
+                  <img
+                    src={furnaceL}
+                    height="600"
+                    width="800"
+                    alt="Italian Trulli"
+                  />
+                  <figcaption>(1.furnace(after being lit)) </figcaption>
+                </div>
+              </Grid>
+            </Grid>
+
+
+            <Grid
+              container
+              style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
+            >
+              <Grid md={12} lg={12}>
+                <div width="400">
+                  <img
+                    src={holding}
+                    height="600"
+                    width="800"
+                    alt="Italian Trulli"
+                  />
+                  <figcaption>(1.melee monster chasing you  2.deer skeleton head 3. silver sword platform (hung by rope)4. 2x spotlights) </figcaption>
+                </div>
+              </Grid>
+            </Grid>
+
+            <Grid
+              container
+              style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
+            >
+              <Grid md={12} lg={12}>
+                <div width="400">
+                  <img
+                    src={ranged1}
+                    height="600"
+                    width="800"
+                    alt="Italian Trulli"
+                  />
+                  <figcaption>(1.ranged monster throwing fireballs at you  2.fan) </figcaption>
+                </div>
+              </Grid>
+            </Grid>
+
+            <Grid
+              container
+              style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
+            >
+              <Grid md={12} lg={12}>
+                <div width="400">
+                  <img
+                    src={veins2}
+                    height="600"
+                    width="800"
+                    alt="Italian Trulli"
+                  />
+                  <figcaption>(1.climbable veins  2.chandelier) </figcaption>
+                </div>
+              </Grid>
+            </Grid>
+
+            <Grid
+              container
+              style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
+            >
+              <Grid md={12} lg={12}>
+                <div width="400">
+                  <img
+                    src={shotgun1}
+                    height="600"
+                    width="800"
+                    alt="Italian Trulli"
+                  />
+                  <figcaption>(1.shotgun 2. pipe (above furnace) 3. generator (hard left)) </figcaption>
+                </div>
+              </Grid>
+            </Grid>
+
+
+            <Grid
+              container
+              style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
+            >
+              <Grid md={12} lg={12}>
+                <div width="400">
+                  <img
+                    src={silver1}
+                    height="600"
+                    width="800"
+                    alt="Italian Trulli"
+                  />
+                  <figcaption>(1.silver sword 2.table (left)) </figcaption>
+                </div>
+              </Grid>
+            </Grid>
+
+
+
+
+
+
+            <ol>
+
+
+              <h3>- 5 of the models that have appropriate physics and collliders  </h3>
+              <li> Fire torch </li>
+              <li> Shotgun</li>
+              <li> Shotgun slugs </li>
+              <li> Coal </li>
+              <li> Shovel</li>
+              <li> Monster 1 & 2</li>
+              <li> Silver sword</li>
+              <li> Chandelier rod</li>
+              <li> Shield</li>
+              <li> Fireball</li>
+            </ol>
+            <br />
+
+            <ol>
+              <h3>- 4 new lights for the room  </h3>
+              <p>(note : all my lights are baked and shadows are disabled to pump more fps, fire torch is 1 exception)</p>
+              <li> Fire torch </li>
+              <li> furnce (after being lit by user)</li>
+              <li> spot light 1 </li>
+              <li> spot light 2</li>
+              <li> chandelier 1</li>
+              <li> chandelier 2</li>
+              <li> Directional light (night)</li>
+            </ol>
+            <br />
+
+            <ol>
+              <h3>- 2 objects that produce new objects : </h3>
+              <li> Shotgun instansiates bullets and muzzle flash </li>
+              <li> Ranged monster spawns ~15 seconds after the red button is pressed then instansiates fireball directed at player every 2.3 seconds(invokeRepeating used)</li>
+            </ol>
+            <br />
+
+            <ol>
+              <h3>- 2 of the models should be animated and move, or move some of their parts  : </h3>
+              <li> monster 1 -melee </li>
+              <img
+                src={monster1ani}
+                height="550"
+                width="600"
+                alt="Italian Trulli"
+              />
+              <figcaption>(melee monster animation state diagram) </figcaption>
+              <li> monster 2 -ranged <div width="500">
                 <img
-                  src={timer1}
-                  height="600"
-                  width="800"
+                  src={rangedMons}
+                  height="550"
+                  width="600"
                   alt="Italian Trulli"
                 />
-                <figcaption>(1. low poly car 2. timer watch 3. fps watch 4. tree  5. road railing 6. charactor hands) </figcaption>
-              </div>
-            </Grid>
-          </Grid>
-          <br />
-          <Grid
-            container
-            style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
-          >
-            <Grid md={12} lg={12}>
-              <div width="400">
-                <img
-                  src={goingOf}
-                  height="600"
-                  width="800"
-                  alt="Italian Trulli"
-                />
-                <figcaption>(1.deer 2.street light 3.gate 4.ScareCo fence 5.terrain ) </figcaption>
-              </div>
-            </Grid>
-       
-          </Grid>
-          
-          <Grid
-            container
-            style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
-          >
-            <Grid md={12} lg={12}>
-              <div width="400">
-                <img
-                  src={tankSHed}
-                  height="600"
-                  width="800"
-                  alt="Italian Trulli"
-                />
-                <figcaption>(1.cyber truck 2.ScareCo entrance & door 3. water tower ) </figcaption>
-              </div>
-            </Grid>
-       
-          </Grid>
-          <Grid
-            container
-            style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
-          >
-            <Grid md={12} lg={12}>
-              <div width="400">
-                <img
-                  src={eleche}
-                  height="600"
-                  width="800"
-                  alt="Italian Trulli"
-                />
-                <figcaption>(1.elevator platform 2.elevator chamber 3. elevator down button ) </figcaption>
-              </div>
-            </Grid>
-       
-          </Grid>
-          <Grid
-            container
-            style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
-          >
-            <Grid md={12} lg={12}>
-              <div width="400">
-                <img
-                  src={recp}
-                  height="600"
-                  width="800"
-                  alt="Italian Trulli"
-                />
-                <figcaption>(1.reception desk 2.telephone 3.laptop 4.receptionist 5.plant 6.chair 7.double doors ) </figcaption>
-              </div>
-            </Grid>
-       
-          </Grid>
-          <br />
-          <Grid
-            container
-            style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
-          >
-            <Grid md={12} lg={12}>
-              <div width="400">
-                <img
-                  src={officeSpawn}
-                  height="600"
-                  width="800"
-                  alt="Italian Trulli"
-                />
-                <figcaption>(1. red button & platform) </figcaption>
-              </div>
-            </Grid>
-          </Grid>
-
-          <Grid
-            container
-            style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
-          >
-            <Grid md={12} lg={12}>
-              <div width="400">
-                <img
-                  src={aft}
-                  height="600"
-                  width="800"
-                  alt="Italian Trulli"
-                />
-                <figcaption>(1.fire torch 2.Shield 3.pillars 4.window & broken window(monster spawn area) 5.clock) </figcaption>
-              </div>
-            </Grid>
-          </Grid>
-
-
-          <Grid
-            container
-            style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
-          >
-            <Grid md={12} lg={12}>
-              <div width="400">
-                <img
-                  src={furnace}
-                  height="600"
-                  width="800"
-                  alt="Italian Trulli"
-                />
-                <figcaption>(1.furnace 2.coal 3.shovel) </figcaption>
-              </div>
-            </Grid>
-          </Grid>
-
-          <Grid
-            container
-            style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
-          >
-            <Grid md={12} lg={12}>
-              <div width="400">
-                <img
-                  src={furnaceL}
-                  height="600"
-                  width="800"
-                  alt="Italian Trulli"
-                />
-                <figcaption>(1.furnace(after being lit)) </figcaption>
-              </div>
-            </Grid>
-          </Grid>
-
-
-          <Grid
-            container
-            style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
-          >
-            <Grid md={12} lg={12}>
-              <div width="400">
-                <img
-                  src={holding}
-                  height="600"
-                  width="800"
-                  alt="Italian Trulli"
-                />
-                <figcaption>(1.melee monster chasing you  2.deer skeleton head 3. silver sword platform (hung by rope)4. 2x spotlights) </figcaption>
-              </div>
-            </Grid>
-          </Grid>
-
-          <Grid
-            container
-            style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
-          >
-            <Grid md={12} lg={12}>
-              <div width="400">
-                <img
-                  src={ranged1}
-                  height="600"
-                  width="800"
-                  alt="Italian Trulli"
-                />
-                <figcaption>(1.ranged monster throwing fireballs at you  2.fan) </figcaption>
-              </div>
-            </Grid>
-          </Grid>
-
-          <Grid
-            container
-            style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
-          >
-            <Grid md={12} lg={12}>
-              <div width="400">
-                <img
-                  src={veins2}
-                  height="600"
-                  width="800"
-                  alt="Italian Trulli"
-                />
-                <figcaption>(1.climbable veins  2.chandelier) </figcaption>
-              </div>
-            </Grid>
-          </Grid>
-
-          <Grid
-            container
-            style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
-          >
-            <Grid md={12} lg={12}>
-              <div width="400">
-                <img
-                  src={shotgun1}
-                  height="600"
-                  width="800"
-                  alt="Italian Trulli"
-                />
-                <figcaption>(1.shotgun 2. pipe (above furnace) 3. generator (hard left)) </figcaption>
-              </div>
-            </Grid>
-          </Grid>
-
-
-          <Grid
-            container
-            style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
-          >
-            <Grid md={12} lg={12}>
-              <div width="400">
-                <img
-                  src={silver1}
-                  height="600"
-                  width="800"
-                  alt="Italian Trulli"
-                />
-                <figcaption>(1.silver sword 2.table (left)) </figcaption>
-              </div>
-            </Grid>
-          </Grid>
-
-
-          
-
-
-         
-<ol>
-
-
-  <h3>- 5 of the models that have appropriate physics and collliders  </h3>
-  <li> Fire torch </li>
-  <li> Shotgun</li>
-  <li> Shotgun slugs </li>
-  <li> Coal </li>
-  <li> Shovel</li>
-  <li> Monster 1 & 2</li>
-  <li> Silver sword</li>
-  <li> Chandelier rod</li>
-  <li> Shield</li>
-  <li> Fireball</li>
-</ol>
-<br />
-
-<ol>
-  <h3>- 4 new lights for the room  </h3>
-  <p>(note : all my lights are baked and shadows are disabled to pump more fps, fire torch is 1 exception)</p>
-  <li> Fire torch </li>
-  <li> furnce (after being lit by user)</li>
-  <li> spot light 1 </li>
-  <li> spot light 2</li>
-  <li> chandelier 1</li>
-  <li> chandelier 2</li>
-  <li> Directional light (night)</li>
-</ol>
-<br />
-
-<ol>
-  <h3>- 2 objects that produce new objects : </h3>
-  <li> Shotgun instansiates bullets and muzzle flash </li>
-  <li> Ranged monster spawns ~15 seconds after the red button is pressed then instansiates fireball directed at player every 2.3 seconds(invokeRepeating used)</li>
-</ol>
-<br />
-
-<ol>
-  <h3>- 2 of the models should be animated and move, or move some of their parts  : </h3>
-  <li> monster 1 -melee </li>
-  <img
-  src={monster1ani}
-  height="550"
-  width="600"
-  alt="Italian Trulli"
-/>
-<figcaption>(melee monster animation state diagram) </figcaption>
-  <li> monster 2 -ranged <div width="500">
-<img
-  src={rangedMons}
-  height="550"
-  width="600"
-  alt="Italian Trulli"
-/>
-<figcaption>(ranged monster animation state diagram) </figcaption>
-</div></li>
-  <li> ceiling fan</li>
-  <li> elevator</li>
-  <li> silver sword platform</li>
-</ol>
-<br />
-
-
- 
- <ol>
-  <h3>- 5 of the models models with physics need to be grabbable / droppable / tossable    </h3>
-  <li> fire torch </li>
-  <li> Shotgun</li>
-  <li> shovel</li>
-  <li> silver sword</li>
-  <li> Chandalier rod</li>
-  <li> Shield</li>
-</ol>
-<br />
+                <figcaption>(ranged monster animation state diagram) </figcaption>
+              </div></li>
+              <li> ceiling fan</li>
+              <li> elevator</li>
+              <li> silver sword platform</li>
+            </ol>
+            <br />
 
 
 
-<ol>
-
-  <h3>- 4 unique special sounds </h3>
-  <li> fire torch fire sound (louder when you get closer)</li>
-  <li> monster sound (louder when you get closer)</li>
-  <li> Fan spining noise(louder when you get closer)</li>
-  <li> breathing (overall)</li>
-  <li> shotgun gunshot (sound effect upon firing)</li>
-  <li> fireball (cast sound effect upon shooting)</li>
-</ol>
-<br />
-
+            <ol>
+              <h3>- 5 of the models models with physics need to be grabbable / droppable / tossable    </h3>
+              <li> fire torch </li>
+              <li> Shotgun</li>
+              <li> shovel</li>
+              <li> silver sword</li>
+              <li> Chandalier rod</li>
+              <li> Shield</li>
+            </ol>
+            <br />
 
 
-  
+
+            <ol>
+
+              <h3>- 4 unique special sounds </h3>
+              <li> fire torch fire sound (louder when you get closer)</li>
+              <li> monster sound (louder when you get closer)</li>
+              <li> Fan spining noise(louder when you get closer)</li>
+              <li> breathing (overall)</li>
+              <li> shotgun gunshot (sound effect upon firing)</li>
+              <li> fireball (cast sound effect upon shooting)</li>
+            </ol>
+            <br />
 
 
-            
-            
-            
-        
-           
+
+
+
+
+
+
+
+
+
           </ol>
-  
+
 
 
           <figure></figure>
 
-      
+
 
           <br />
           <p>
@@ -1757,78 +1757,78 @@ export default function SimpleTabs() {
           <br />
 
           <p>
-          The first time I tested my app in class there were certain areas(explained below) that caused massive fps drops to 10 - 15 frames per sec especially near the 6x candle chandelier. Some other places where I experienced drops were near the tesla 3 & Volkswagon car which I later removed. I used my fps watch to investigate all the areas in my project (as shown in the video) and was able to get consistent 72 fps on my friend's quest 2.
-           
+            The first time I tested my app in class there were certain areas(explained below) that caused massive fps drops to 10 - 15 frames per sec especially near the 6x candle chandelier. Some other places where I experienced drops were near the tesla 3 & Volkswagon car which I later removed. I used my fps watch to investigate all the areas in my project (as shown in the video) and was able to get consistent 72 fps on my friend's quest 2.
+
           </p>
-          <br/>
+          <br />
           <p>
 
-           In the video below I used my fps watch to show how I got only 20-ish fps when I look at the 6x candle lights on the chandelier then the fps watch goes back to 72 when I look back at the wall. I had no idea that this was a problem when I was using the inbuilt spatial simulator. The 20 fps that I got was on a quest 2 device. In Quest 1 you could expect 30% - 40% lower fps compared to quest 2 as when I tested in class I was getting only 10 - 15 fps along with a lot of screen tear(factoring in the almost 2x performance upgrade along with the higher render resolution of the quest 2).
+            In the video below I used my fps watch to show how I got only 20-ish fps when I look at the 6x candle lights on the chandelier then the fps watch goes back to 72 when I look back at the wall. I had no idea that this was a problem when I was using the inbuilt spatial simulator. The 20 fps that I got was on a quest 2 device. In Quest 1 you could expect 30% - 40% lower fps compared to quest 2 as when I tested in class I was getting only 10 - 15 fps along with a lot of screen tear(factoring in the almost 2x performance upgrade along with the higher render resolution of the quest 2).
           </p>
-          <br/>
+          <br />
           <div style={{ textAlign: 'center' }}>
-          <iframe width="1000" height="800" src="https://www.youtube.com/embed/PSs30UZYCwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <ol style={{ marginLeft: '30px' }}>
-              <br/>
-              <p>
-           <h3>- 3 steps that greatly helped me increase fps</h3>
-          </p>
-              <br/>
+            <iframe width="1000" height="800" src="https://www.youtube.com/embed/PSs30UZYCwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <ol style={{ marginLeft: '30px' }}>
+            <br />
+            <p>
+              <h3>- 3 steps that greatly helped me increase fps</h3>
+            </p>
+            <br />
             <li><b>Occlusion culling : </b>Basically means don't render what you dont see. We have to open Occlusion culling window and then we have to set a parameter for minimum bake cube size(my project was set to 1) and click on bake. Camera Demo shown in the image below. </li>
-            <br/>
+            <br />
             <Grid
-            container
-            style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
-          >
-            
-            <Grid md={12} lg={12}>
-              <div width="400">
-                <img
-                  src={wCull}
-                  height="450"
-                  width="800"
-                  alt="Italian Trulli"
-                />
-                <figcaption>(Scene image without culling, everything to the sides and behind the camera are behind are being rendered) </figcaption>
-              </div>
-              <br/>
+              container
+              style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
+            >
+
+              <Grid md={12} lg={12}>
+                <div width="400">
+                  <img
+                    src={wCull}
+                    height="450"
+                    width="800"
+                    alt="Italian Trulli"
+                  />
+                  <figcaption>(Scene image without culling, everything to the sides and behind the camera are behind are being rendered) </figcaption>
+                </div>
+                <br />
+              </Grid>
+
+              <Grid md={12} lg={12}>
+                <div width="400">
+                  <img
+                    src={cal}
+                    height="450"
+                    width="800"
+                    alt="Italian Trulli"
+                  />
+                  <figcaption>(almost nothing is rendered behind and to the sides of the camera giving us some sweet fps) </figcaption>
+                </div>
+              </Grid>
             </Grid>
-            
-            <Grid md={12} lg={12}>
-              <div width="400">
-                <img
-                  src={cal}
-                  height="450"
-                  width="800"
-                  alt="Italian Trulli"
-                />
-                <figcaption>(almost nothing is rendered behind and to the sides of the camera giving us some sweet fps) </figcaption>
-              </div>
-            </Grid>
-          </Grid>
-          <br/>
+            <br />
             <li><b>Baked lighting:</b>  The light texture is written onto the reflective surface texture when you bake lights. For baking lights first, click on all the light sources of your choice & change from realtime light source to baked, and after that click on window -> rendering -> lighting settings -> generate lighting (the process will take some time). Using baked lighting means that there are no dynamic lights and more memory is consumed but this gives us a healthy fps boost. I have also disabled shadows for most of the light sources. This means our application won't look as good as it could but we need to remember that at the end of the day oculus is a mobile device and has limited hardware capabilities </li>
-            <br/>
+            <br />
             <Grid
-            container
-            style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
-          >
-            <Grid md={12} lg={12}>
-              <div width="400">
-                <img
-                  src={baked1}
-                  height="450"
-                  width="800"
-                  alt="Italian Trulli"
-                />
-                <figcaption>(all lights used were baked and not real time) </figcaption>
-              </div>
+              container
+              style={{ width: '80%', textAlign: 'center', marginLeft: '8%' }}
+            >
+              <Grid md={12} lg={12}>
+                <div width="400">
+                  <img
+                    src={baked1}
+                    height="450"
+                    width="800"
+                    alt="Italian Trulli"
+                  />
+                  <figcaption>(all lights used were baked and not real time) </figcaption>
+                </div>
+              </Grid>
             </Grid>
-          </Grid>
-          <br/>
+            <br />
             <li><b>Reducing the number of polygons</b> : I removed most of the high poly modals as shown in the assets used tab and replaced them with low polygon modals to improve fps, I also decreased terrain texture resolution outdoors from 512 x 512 to 32 x 32. It makes the terrrain look a bit more "edgy" but again, fps!</li>
-    
+
           </ol>
           <br />
           <br />
@@ -1839,7 +1839,7 @@ export default function SimpleTabs() {
             </h2>
           </p>
           <br />
-          <p>Context: For testing VR apps on unity we have an in-built vrtk simulator gameObject called spatial simulator, quite useful to test out quick and small features but is a bit hard to use(i feel). For how to use the spatial controller you can check out the instructions given above(on install and use section).</p> <br/>
+          <p>Context: For testing VR apps on unity we have an in-built vrtk simulator gameObject called spatial simulator, quite useful to test out quick and small features but is a bit hard to use(i feel). For how to use the spatial controller you can check out the instructions given above(on install and use section).</p> <br />
           <Grid
             container
             style={{ width: '90%', textAlign: 'center', marginLeft: '8%' }}
@@ -1859,25 +1859,25 @@ export default function SimpleTabs() {
           <br />
 
           <p>
-          For this project, we need to run our phobia simulator in a headset, and for my phobia, I would have to help the user get over their fear of monsters. For testing our project we cant use oculus or any other headset all the time because some people simply don't have it or even if they do then it easily takes around 3-4 minutes to build and run your app on the headset. So we usually test with the spatial simulator that is an inbuilt headset and hand controller simulator where the user can use WASD keys and mouse input.
+            For this project, we need to run our phobia simulator in a headset, and for my phobia, I would have to help the user get over their fear of monsters. For testing our project we cant use oculus or any other headset all the time because some people simply don't have it or even if they do then it easily takes around 3-4 minutes to build and run your app on the headset. So we usually test with the spatial simulator that is an inbuilt headset and hand controller simulator where the user can use WASD keys and mouse input.
           </p>
-            <br/>
+          <br />
           <p>
-          Testing out small things like collision triggers and simple tasks like pressing buttons is a lot faster with the spatial simulator. simply put the camera near the to-be-tested area then debug. There are limitations, however.
-           it is extremely hard and slow to climb the ladder or do any kind of parkour with your hand like climbing veins. Using the simulator feels like you are playing a normal computer game. For keyboard users you are restricted only to 4 directions, whereas in the headset you have 360 degrees of motion, It was so frustrating that I had to go to my friend's place or the classroom whenever I wanted to test out parkouring. And not just parkouring, interacting with a more complex object like the shotgun is also Difficult.
-            Another drawback is the fps counter. When you test in a simulator, you are using the computer's hardware which is a lot more powerful. So the frame rates you receive can be deceiving. If there is any object/lighting that is causing fps to drop then you won't be immediately able to pick it up on the simulator. Imagine my surprise when I saw 10 fps the first time I tested on the classroom's oculus. 
+            Testing out small things like collision triggers and simple tasks like pressing buttons is a lot faster with the spatial simulator. simply put the camera near the to-be-tested area then debug. There are limitations, however.
+            it is extremely hard and slow to climb the ladder or do any kind of parkour with your hand like climbing veins. Using the simulator feels like you are playing a normal computer game. For keyboard users you are restricted only to 4 directions, whereas in the headset you have 360 degrees of motion, It was so frustrating that I had to go to my friend's place or the classroom whenever I wanted to test out parkouring. And not just parkouring, interacting with a more complex object like the shotgun is also Difficult.
+            Another drawback is the fps counter. When you test in a simulator, you are using the computer's hardware which is a lot more powerful. So the frame rates you receive can be deceiving. If there is any object/lighting that is causing fps to drop then you won't be immediately able to pick it up on the simulator. Imagine my surprise when I saw 10 fps the first time I tested on the classroom's oculus.
           </p>
-          <br/>
+          <br />
           <p>
-          Loading Your application onto the VR is far more immersive when compared with the spatial simulator. You feel lost in your world. Some of my friends who tried using my application legit got scared when they first saw the monster towering over them. navigation is far more superior in the VR headset. Interacting with objects is on a whole new level in the headset. The ones I enjoyed the most were swinging the sword at the monster, shooting the shotgun, and opening the door that I build. All interactions grab/throw/shoot/use/push/parkour feel a lot more immersive and you get a good exercise in the VR compared with the simulator
+            Loading Your application onto the VR is far more immersive when compared with the spatial simulator. You feel lost in your world. Some of my friends who tried using my application legit got scared when they first saw the monster towering over them. navigation is far more superior in the VR headset. Interacting with objects is on a whole new level in the headset. The ones I enjoyed the most were swinging the sword at the monster, shooting the shotgun, and opening the door that I build. All interactions grab/throw/shoot/use/push/parkour feel a lot more immersive and you get a good exercise in the VR compared with the simulator
             The fps you get are accurate and you can generally assume that other users may get roughly the same amount of fps in the respective areas. Drawbacks are that it takes a lot of time to load applications & if by chance you left the spatial simulator active in your scene hierarchy then you would have to cancel(canceling build again takes more than a minute) and build again, I am pretty sure most of the folks in class have experienced this.
             I don't feel good spending too much time on VR, sometimes I feel dizzy whenever I fall or go down the elevator in the VR, especially if I test it at night, which affects my sleep cycle.
           </p>
-          <br/>
+          <br />
           <p>
-          To conclude I feel that if you want to test out some basic stuff then we could stick to the spatial simulator. For the complex interactions and fps testing, you would need a headset as no simulator could give you such experience. 
+            To conclude I feel that if you want to test out some basic stuff then we could stick to the spatial simulator. For the complex interactions and fps testing, you would need a headset as no simulator could give you such experience.
           </p>
-        
+
           <br />
         </section>
       </TabPanel>
@@ -1887,23 +1887,39 @@ export default function SimpleTabs() {
         </section>
       </TabPanel> */}
       <TabPanel value={value} index={3}>
-    
-         
-    
-        <section>
-        <h1 style={{ textAlign: 'center' }}>Student's choice</h1>
+
+
+
+        <section style = {{fontSize : '16px'}}>
+          <h1 style={{ textAlign: 'center' }}>Student's choice</h1>
           <h1 style={{ textAlign: 'center' }}>The Climb 2</h1>
           <br />
-          <h2 style={{ textAlign: 'center', color: 'blue' }}>Description</h2>
+          <h2 style={{ textAlign: 'center', color: 'blue' }}>Introduction</h2>
           <br />
+
+          {/* - Introduction to what it is
+    - 
+    - 
+    -  */}
+
+
           <p>
             {' '}
-            The Climb 2 brings the thrill of rock climbing alive with a new city setting, exciting new maps, new events, and more. Ascend epic peaks, navigate vast caves, scale skyscrapers, and discover shortcuts as you find your path to the top. Compete with friends in multiplayer and conquer leaderboards.
+            The Climb 2 brings the fun of mountaineering alive with all-new city-style maps (lacking in the previous part), new events, and more. Ascend epic peaks, navigate tremendous caves, scale skyscrapers, and find out shortcuts as you discover your direction to the pinnacle. You can compete with other players in multiplayer and post new records to leaderboards.
           </p>
           <br />
-         
+          <p>
+            I did get a chance to play The Climb 2 for a few hours so the critique below would be a mix of my experience and other user reviews from occasional players. The game is beautiful, with fantastic sound and gorgeous landscapes. The feeling of heights and solitude is meditative and relaxing, and the game holds your focus and works as a pretty immersive escape (after unchecking all the HUD options and disabling the button jumping). It is also a light shoulder workout, which is good for my rehab. If this is what you are after, get it. (Also, it is way better than Richie's Plank for new VR users. Just put them on the first city stage and say "climb", then watch them freak when they look down.)</p>
+          <p>
+          It’s a straightforward game, you're a climber with the easy task of scaling the mountains or rock formations before you. With nothing however your hands and your wits, you have got the flexibility to try to do what looks like not possible feats for many normal folks. As you progress on the trail before you, the sport places you in an associate degree nearly zen-like state. when the issue will increase, you build a level of confidence that creates you're feeling superb. this is often quite an exploit considering the whole goal of the sport is solely to climb to the highest of every space. the sport is de-escalated into multiple areas: the Bay, the Canyon, and therefore the Alps. each of the areas is de-escalated into 3 increasing difficulties with new challenges at every flip. If you create it through those every space conjointly has 2 extra unlockable levels that actually crank up the issue additionally. The Climb will do a really sensible job at simulating the various handholds that a true life climber would bump into in a very real setting. From full hand grip to specific technical grips, the folks at Crytek went all out planning this game. Some grips even have toxic plants that drain your energy or break apart if you keep them in one place for quite a number of seconds. This forces you to stay the sport perpetually moving forward.
+          </p>
+
+          <br/>
+       
           <br />
-         
+
+          <br />
+
 
           <br />
           {/* <Grid
@@ -1917,15 +1933,104 @@ export default function SimpleTabs() {
               </div>
             </Grid>
           </Grid> */}
-          <div style = {{position : 'center'}}>
-          <iframe  width="100%" height="800" src="https://www.youtube.com/embed/YSNPalIihiE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          <div style={{ position: 'center', padding: '60px' }}>
+            <iframe width="100%" height="600" src="https://www.youtube.com/embed/YSNPalIihiE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
+
+          <h2 style={{ textAlign: 'center', color: 'blue' }}>Why is it a good use of VR or AR?</h2>
+          <br/>
+          <p> The Climb 2 offers excellent simulation or realistic exprience by retaining a hard and fast tempo and contracting unique upper body muscle tissues as I climb, I’ve discovered The Climb 2 to be an amazing device for operating out the triceps, shoulders, even the abs in case you sincerely decide to the roleplay. For a further challenge, you may wear wrist weights for your climbs. I have noticed that the faster you try to climb the more energy is drained exponentially and you frequently need to take breaks to revcover. </p>
+          <p>  There are ways to make the exprence even more realistic in VR by tying a resistance band to the ceiling attached to your hand/controllers which could actually give resistance while pulling yourself up</p>
+          <br/>
+          <p>The game is built with cryengine and is optimised well. I did not expect this level of graphics on a standalone quest device. The enviroimental surroundings are on par with AAA titles from PC. </p>
+          <br/>
+
+          <br/>
+          <p><h4>IGN's Climb 2 review :</h4></p>
+          <div style={{ position: 'center', padding: '60px' }}>
+            <iframe width="100%" height="600" src="https://www.youtube.com/embed/qNiPO6oIU1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <br/>
+          <h2 style={{ textAlign: 'center', color: 'blue' }}>Who are its intended users?</h2>
+     
+          <br/>
+          <p>The Climb 2 is made for the motive of entertainment & fitness. So The target audience here are gamers, fitness enthusiasts and for those who love mountaineering and parkour. It is a somewhat unique game having similarities only with its prequel the Climb 2016. Its good exercise, and offers a super exprience to people who want to exprience mountain climbing and also, its way cheaper then having to buy all the mountaineering equipment. levels in climb 2 are 10 - 15 mins long so its good for users aiming to get a quick workout. Also if the user wants to get over their fear of heights then, This is the game for them. </p>
+          <br/>
+          <p>
+          The Climb 2 also offer 2 modes as per player preferance: <br/>
+          <br/>
+          <b>Casual: </b> where if the user wants a more simulated exprience. A lot easier than professional mode as there is no stamina management involed and the youer could just hang off a ledge for infinite amount of time
+          <br/>
+          <br/>
+          <b>Professional: </b>where you get a more realistic exprience as it involves chalking your hands and stamina balancing between hands. If you fail to balance you fall off the ledge.  
+          </p>
+          <br/>
+
+          <p> Some fitness oriented users have taken their game to the next level by tying Resistance bands to their hands and waists to increase the difficulty and get a good shoulder workout in the process, Also some others users use wrist weights to increase difficulty scaling.</p>
+          <p><a href = "https://www.reddit.com/r/OculusQuest/comments/mdnvid/using_body_resistance_bands_makes_for_an_insane/"> User using a Resistance band </a></p>
+          
+          <br/>
+
+          <h2 style={{ textAlign: 'center', color: 'blue' }}>What are the issues (positive and negative) with it?</h2>
+          <p><h3>Pros</h3></p>
+          <ul>
+            <li> <p> 1) The level Design is phenominal, you would expect that climbing a building would be mundane(like in spider man games) but a lot of horizontal movements were added like rotating ad banners, elevators, ziplines etc which makes the game lot more intresting</p></li> 
+              <li>  <p>2) The Climb 2 is quite realistic(expect for some areas mentioned in cons) with actions ranging from the player having to put chalk on their hands for temporary grip to them having to carefully maintain their stamina meter for each of their hands when single hand hanging or when they grap a sharp ledge.  </p></li>
+              <li>  <p>3) For the average User it takes around 10 - 15 mins to finish a level, so If you want a quick, non time consuming workout and want to entertain yourself in the process then you could get the game's worth.  </p></li>
+              <li>    <p>4) The Levels are predefined but sometimes you can get a dynamic exprience as there are multiple ways to reach your objective(the peak through lots of checkpoints) and finish the level, you would come accross lots of shortcuts(if you can find them)  </p></li>
+              <li>    <p>5) Audio Design is superb not just for climbing but various other effects like high speed winds blowing through you makes you feel cold even tho the room temprature is the same, Sounds of Jets flying, snakes hissing in the canyons, buckets randomly falling from building, wolves howling is all on the mark. </p></li>
+              <li>    <p>6) The events that animate the surroundings (swaing ladders, cracking wooden logs etc) creates an immersive exprience.</p></li>
+            </ul>
+          
+
+          <br/>
+
+          <p><h3>Cons</h3></p>
+
+          <p>1) While your upper movement feels quite natural your lower body does not feel natural at all. For example when jumping to another ledge horizontically you sling shot your self with your arms but your legs stay as is and that feels wrong and caused me to lose balance sometimes(motion sickness) <br/></p>
+
+          <p>2) I noticed that in some areas of the map where you have to make use of a monkey bar(or a look alike structure) your body is ignored completely, as in it is full possible for you to go over the monkey bar without your body blocking you. </p>
+       
+          <p>3) One of the main issue is that its quite gamified gamified (well that is the point of games) sometimes some of the manuvers feel unrealistic especially if you failed to grab  a ledge and fall down at a high speed then you are still able to grab a ledge which does not feel natural  </p>
+          <p>4) Having just 15 levels, The climb is quite short with not so great replay value, unlike some other rythm based games where you can enjoy the music while you play the same level over and over again. The location of the ledges remain the same when you replay the level so if you had played it once then you already know where you have to go(apart from a few hard to discover shorcuts).</p>
+
+          <p>5) Even if you have acute signs of Acrophobia, then this game wont suit you as if looking down after reaching a certain height might cause uneasiness  </p>
+
+          <p>6) In multiplayer follow all you could do is follow the ghost of another player and try to beat their record. There is no real time race/marathon which takes the fun out</p>
+
+          <p>7) In the fitness department, unlike other fitness based games, only you upper body gets the workout while your lower body akwardly is standing still most of the time.</p>
+
+          <p>8) There have been immersion breaking instances where my head would go inside a mountain to give an all black view. </p>
+   
+
+      
+
+
+       
+          <h2 style={{ textAlign: 'center', color: 'blue' }}>Sources</h2>
+
+
+
+          
+          <p>
+            <ul>
+            <li>The Climb 2 - trailer- <span style = {{color : 'blue'}}>https://www.youtube.com/watch?v=YSNPalIihiE&ab_channel=Oculus </span> </li>
+              <li>The Climb 2 - Launch Developer Live Stream - <span style = {{color : 'blue'}}> https://www.youtube.com/watch?v=41FIH32fu5w&ab_channel=TheClimb </span> </li>
+              <li>The Climb 2 - Developer Diary 'New Heights' - <span style = {{color : 'blue'}}> https://www.youtube.com/watch?v=vBqUQ6rFsv4&ab_channel=TheClimb </span> </li>
+              <li>The Climb Dev Diary 3: Summit -<span style = {{color : 'blue'}}> https://www.youtube.com/watch?v=-vL9eoHVNCQ&ab_channel=TheClimb  </span> </li>
+              <li>IGN review - The climb 2 -<span style = {{color : 'blue'}}>https://www.youtube.com/watch?v=qNiPO6oIU1c&ab_channel=IGN</span> </li>
+              <li>Climb 2 + Resistance Bands -<span style = {{color : 'blue'}}> https://www.reddit.com/r/OculusQuest/comments/mdnvid/using_body_resistance_bands_makes_for_an_insane/ </span> </li>
+              <li>Weight Extensions- <span style = {{color : 'blue'}}>https://www.amazon.com/wrist-weights/s?k=wrist+weights </span> </li>
+            </ul>
+          </p>
+
           <br />
 
           <br />
-         
+
         </section>
-        
+
       </TabPanel>
       {/* <TabPanel value={value} index={4}>
         Homework:
