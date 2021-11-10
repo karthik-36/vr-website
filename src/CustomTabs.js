@@ -1909,9 +1909,9 @@ export default function SimpleTabs() {
           </p>
           <br />
           <p>
-            I did get a chance to play The Climb 2 for a few hours so the critique below would be a mix of my experience and other user reviews from occasional players. The game is beautiful, with fantastic sound and gorgeous landscapes. The feeling of heights and solitude is meditative and relaxing, and the game holds your focus and works as a pretty immersive escape (after unchecking all the HUD options and disabling the button jumping). It is also a light shoulder workout, which is good for my rehab. If this is what you are after, get it. (Also, it is way better than Richie's Plank for new VR users. Just put them on the first city stage and say "climb", then watch them freak when they look down.)</p>
+            I did get a chance to play The Climb 2 for a few hours, I did not go through all the levels, I played just 2 out of 15(my main motive was to find bugs), so the critique in pros/cons would be a mix of my experience and other user reviews from occasional players. The game is beautiful, with fantastic sound and gorgeous landscapes. The feeling of heights and solitude is meditative and relaxing, and the game holds your focus and works as a pretty immersive escape (after unchecking all the HUD options and disabling the button jumping). It is also a light shoulder workout, which is good for my health. If this is what you are after, get it(at a reasonable cost of 30$). Also, I fell that it is way better than Richie's Plank for new VR users. Just put them on the first city stage and say "climb", then watch them freak out when they look down.</p>
           <p>
-          It’s a straightforward game, you're a climber with the easy task of scaling the mountains or rock formations before you. With nothing however your hands and your wits, you have got the flexibility to try to do what looks like not possible feats for many normal folks. As you progress on the trail before you, the sport places you in an associate degree nearly zen-like state. when the issue will increase, you build a level of confidence that creates you're feeling superb. this is often quite an exploit considering the whole goal of the sport is solely to climb to the highest of every space. the sport is de-escalated into multiple areas: the Bay, the Canyon, and therefore the Alps. each of the areas is de-escalated into 3 increasing difficulties with new challenges at every flip. If you create it through those every space conjointly has 2 extra unlockable levels that actually crank up the issue additionally. The Climb will do a really sensible job at simulating the various handholds that a true life climber would bump into in a very real setting. From full hand grip to specific technical grips, the folks at Crytek went all out planning this game. Some grips even have toxic plants that drain your energy or break apart if you keep them in one place for quite a number of seconds. This forces you to stay the sport perpetually moving forward.
+          It’s a straightforward game, you're a climber with the task of scaling the building/mountains or rock formations before you. You usually spawn midway of a climb with nothing but your hands and your wits, you have got the flexibility to try to do what looks like impossible feats for many normal folks. As you progress on the trail before you, you get immersed into a zen-like state. And as you climb higher, you build a level of confidence and with every checkpoint you cross you feel like you have accomplished a professional climbing task. There are 5 unique level types in the game: the Bay, the Canyon, the Alps , the Skyscrapers(city) and the north. Each of the levels have 3 increasing difficulties(easy/medium/hard) with new challenges at every flip. The Climb will do a really sensible job at simulating the various handholds that a true life climber would bump into in a very real setting. From full hand grip to specific technical grips, the folks at Crytek went all out planning this game. Some ledges even have toxic plants/spiky material that drain your stamina or ledges that fall off if you cant climb quick enough, this forces you to keep focus perpetually moving forward.
           </p>
 
           <br/>
@@ -1940,10 +1940,9 @@ export default function SimpleTabs() {
 
           <h2 style={{ textAlign: 'center', color: 'blue' }}>Why is it a good use of VR or AR?</h2>
           <br/>
-          <p> The Climb 2 offers excellent simulation or realistic exprience by retaining a hard and fast tempo and contracting unique upper body muscle tissues as I climb, I’ve discovered The Climb 2 to be an amazing device for operating out the triceps, shoulders, even the abs in case you sincerely decide to the roleplay. For a further challenge, you may wear wrist weights for your climbs. I have noticed that the faster you try to climb the more energy is drained exponentially and you frequently need to take breaks to revcover. </p>
+          <p> The Climb 2 offers excellent simulation or realistic experience by retaining a hard and fast tempo and contracting unique upper body muscle tissues as I climb, I’ve discovered The Climb 2 to be an amazing device for operating out the triceps, shoulders, even the abs in case you sincerely decide to the roleplay. For a further challenge, you may wear wrist weights for your climbs. I have noticed that the faster you try to climb the more energy is drained exponentially and you frequently need to take breaks to revcover. </p>
           <p>  There are ways to make the exprence even more realistic in VR by tying a resistance band to the ceiling attached to your hand/controllers which could actually give resistance while pulling yourself up</p>
-          <br/>
-          <p>The game is built with cryengine and is optimised well. I did not expect this level of graphics on a standalone quest device. The enviroimental surroundings are on par with AAA titles from PC. </p>
+          <p>The game is built with cryengine and is optimised well. I did not expect this level of graphics on a standalone quest device. At first glance the enviroimental surroundings seems to be on par with AAA titles from PC, But if you stare at the textures long enough you can make out the flaws eg: some set of tree leaves are literally just pictures but in the heat of climbing an average player might not be able to make out this difference. Overall the devs have done a good job of covering things up so that the game could run on the older gen quest as well while looking fantastic and providing an immerse VR experience,   </p>
           <br/>
 
           <br/>
@@ -1955,15 +1954,15 @@ export default function SimpleTabs() {
           <h2 style={{ textAlign: 'center', color: 'blue' }}>Who are its intended users?</h2>
      
           <br/>
-          <p>The Climb 2 is made for the motive of entertainment & fitness. So The target audience here are gamers, fitness enthusiasts and for those who love mountaineering and parkour. It is a somewhat unique game having similarities only with its prequel the Climb 2016. Its good exercise, and offers a super exprience to people who want to exprience mountain climbing and also, its way cheaper then having to buy all the mountaineering equipment. levels in climb 2 are 10 - 15 mins long so its good for users aiming to get a quick workout. Also if the user wants to get over their fear of heights then, This is the game for them. </p>
+          <p>The Climb 2 is made for the motive of entertainment & fitness. So The target audience here are gamers, fitness enthusiasts and for those who love mountaineering and parkour. It is a somewhat unique game having similarities only with its prequel the Climb 2016. Its good exercise, and offers a super experience to people who want to experience mountain climbing and also, its way cheaper then having to buy all the mountaineering equipment. levels in climb 2 are 10 - 15 mins long so its good for users aiming to get a quick workout. Also if the user wants to get over their fear of heights then, This is the game for them. </p>
           <br/>
           <p>
           The Climb 2 also offer 2 modes as per player preferance: <br/>
           <br/>
-          <b>Casual: </b> where if the user wants a more simulated exprience. A lot easier than professional mode as there is no stamina management involed and the youer could just hang off a ledge for infinite amount of time
+          <b>Casual: </b> where if the user wants a more simulated experience. A lot easier than professional mode as there is no stamina management involed and the youer could just hang off a ledge for infinite amount of time
           <br/>
           <br/>
-          <b>Professional: </b>where you get a more realistic exprience as it involves chalking your hands and stamina balancing between hands. If you fail to balance you fall off the ledge.  
+          <b>Professional: </b>where you get a more realistic experience as it involves chalking your hands and stamina balancing between hands. If you fail to balance you fall off the ledge.  
           </p>
           <br/>
 
@@ -1975,12 +1974,12 @@ export default function SimpleTabs() {
           <h2 style={{ textAlign: 'center', color: 'blue' }}>What are the issues (positive and negative) with it?</h2>
           <p><h3>Pros</h3></p>
           <ul>
-            <li> <p> 1) The level Design is phenominal, you would expect that climbing a building would be mundane(like in spider man games) but a lot of horizontal movements were added like rotating ad banners, elevators, ziplines etc which makes the game lot more intresting</p></li> 
-              <li>  <p>2) The Climb 2 is quite realistic(expect for some areas mentioned in cons) with actions ranging from the player having to put chalk on their hands for temporary grip to them having to carefully maintain their stamina meter for each of their hands when single hand hanging or when they grap a sharp ledge.  </p></li>
-              <li>  <p>3) For the average User it takes around 10 - 15 mins to finish a level, so If you want a quick, non time consuming workout and want to entertain yourself in the process then you could get the game's worth.  </p></li>
-              <li>    <p>4) The Levels are predefined but sometimes you can get a dynamic exprience as there are multiple ways to reach your objective(the peak through lots of checkpoints) and finish the level, you would come accross lots of shortcuts(if you can find them)  </p></li>
-              <li>    <p>5) Audio Design is superb not just for climbing but various other effects like high speed winds blowing through you makes you feel cold even tho the room temprature is the same, Sounds of Jets flying, snakes hissing in the canyons, buckets randomly falling from building, wolves howling is all on the mark. </p></li>
-              <li>    <p>6) The events that animate the surroundings (swaing ladders, cracking wooden logs etc) creates an immersive exprience.</p></li>
+            <li> <p> 1) The level Design is phenomenal, you would expect that climbing a building would be mundane(like in spider man games) but a lot of horizontal movements were added like rotating ad banners, elevators, ziplines, etc which makes the game lot more intresting</p></li> 
+              <li>  <p>2) The Climb 2 is quite realistic(except for some areas mentioned in cons) with actions ranging from the player having to put chalk on their hands for temporary grip to them having to carefully maintain their stamina meter for each of their hands when single hand hanging or when they grab a sharp ledge.  </p></li>
+              <li>  <p>3) For the average User it takes around 10 - 15 mins to finish a level, so If you want a quick, non-time consuming workout and want to entertain yourself in the process then you could get the game's worth.  </p></li>
+              <li>    <p>4) The Levels are predefined but sometimes you can get a dynamic experience as there are multiple ways to reach your objective(the peak through lots of checkpoints) and finish the level, you would come accross lots of shortcuts(if you can find them)  </p></li>
+              <li>    <p>5) Audio Design is superb not just for climbing but various other effects like high speed winds blowing through you makes you feel cold even tho the room temperature is the same, Sounds of Jets flying, snakes hissing in the canyons, buckets randomly falling from a building, wolves howling is all on the mark. </p></li>
+              <li>    <p>6) The events that animate the surroundings (swaying ladders, cracking wooden logs etc) creates an immersive experience.</p></li>
             </ul>
           
 
@@ -1988,22 +1987,22 @@ export default function SimpleTabs() {
 
           <p><h3>Cons</h3></p>
 
-          <p>1) While your upper movement feels quite natural your lower body does not feel natural at all. For example when jumping to another ledge horizontically you sling shot your self with your arms but your legs stay as is and that feels wrong and caused me to lose balance sometimes(motion sickness) <br/></p>
+          <p>1) While your upper movement feels quite natural your lower body does not feel natural at all. For example, when jumping to another ledge horizontally you slingshot your self with your arms but your legs stay as is and that feels wrong and caused me to lose balance sometimes(motion sickness) <br/></p>
 
-          <p>2) I noticed that in some areas of the map where you have to make use of a monkey bar(or a look alike structure) your body is ignored completely, as in it is full possible for you to go over the monkey bar without your body blocking you. </p>
+          <p>2) I noticed that in some areas of the map where you have to make use of a monkey bar(or a look-alike structure) your body is ignored completely, as in it is fully possible for you to go over the monkey bar without your body blocking you. </p>
        
-          <p>3) One of the main issue is that its quite gamified gamified (well that is the point of games) sometimes some of the manuvers feel unrealistic especially if you failed to grab  a ledge and fall down at a high speed then you are still able to grab a ledge which does not feel natural  </p>
-          <p>4) Having just 15 levels, The climb is quite short with not so great replay value, unlike some other rythm based games where you can enjoy the music while you play the same level over and over again. The location of the ledges remain the same when you replay the level so if you had played it once then you already know where you have to go(apart from a few hard to discover shorcuts).</p>
+          <p>3) One of the main issues is that its quite gamified even in the professional mode (well that is the point of games) sometimes some of the maneuvers feel unrealistic especially if you failed to grab a ledge and fall at a high speed then you are still able to grab a ledge which does not feel natural  </p>
+          <p>4) Having just 15 levels, The climb is quite short with not so great replay value, unlike some other rhythm based games where you can enjoy the music while you play the same level over and over again. The location of the ledges remain the same when you replay the level so if you had played it once then you already know where you have to go(apart from a few hard to discover shortcuts).</p>
 
-          <p>5) Even if you have acute signs of Acrophobia, then this game wont suit you as if looking down after reaching a certain height might cause uneasiness  </p>
+          <p>5) If you have a serious case of Acrophobia, then this game won't suit you as if looking down after reaching a certain height might cause uneasiness. </p>
 
-          <p>6) In multiplayer follow all you could do is follow the ghost of another player and try to beat their record. There is no real time race/marathon which takes the fun out</p>
+          <p>6) In multiplayer, all you could do is follow the ghost of another player and try to beat their record. There is no real-time race/marathon which takes the fun out</p>
 
-          <p>7) In the fitness department, unlike other fitness based games, only you upper body gets the workout while your lower body akwardly is standing still most of the time.</p>
+          <p>7) In the fitness department, unlike other fitness based games, only your upper body gets the workout while your lower body awkwardly is standing still most of the time.</p>
 
-          <p>8) There have been immersion breaking instances where my head would go inside a mountain to give an all black view. </p>
+          <p>8) There have been immersion-breaking instances where my head would go inside a mountain to give an all black view. </p>
    
-
+          <p>9) they could have used hand tracking atleast as an experiment to get more precise movements rather than using the controller's triggers which is binary(grab/ungrab) </p>
       
 
 
@@ -2022,6 +2021,10 @@ export default function SimpleTabs() {
               <li>IGN review - The climb 2 -<span style = {{color : 'blue'}}>https://www.youtube.com/watch?v=qNiPO6oIU1c&ab_channel=IGN</span> </li>
               <li>Climb 2 + Resistance Bands -<span style = {{color : 'blue'}}> https://www.reddit.com/r/OculusQuest/comments/mdnvid/using_body_resistance_bands_makes_for_an_insane/ </span> </li>
               <li>Weight Extensions- <span style = {{color : 'blue'}}>https://www.amazon.com/wrist-weights/s?k=wrist+weights </span> </li>
+              <li>Critique 1- Pass through <span style = {{color : 'blue'}}>https://drive.google.com/file/d/1-VoY4WTmVfYQZJNTBUmctw0LqQifKDMt/view?usp=sharing </span> </li>
+              <li>Critique 2- Horizontal jump <span style = {{color : 'blue'}}>https://drive.google.com/file/d/1TkAuAmx4X20DrqCdC90kutmO_gyqqIZn/view?usp=sharing </span> </li>
+              
+              
             </ul>
           </p>
 
